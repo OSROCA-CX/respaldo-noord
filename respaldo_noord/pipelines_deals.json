@@ -1,0 +1,103 @@
+[
+  {
+    "label": "Pipeline unificado",
+    "displayOrder": 0,
+    "id": "8049958",
+    "stages": [
+      {
+        "label": "Presentación agendada",
+        "displayOrder": 0,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.1"
+        },
+        "id": "23073047",
+        "createdAt": "2022-05-16T15:53:27.931Z",
+        "updatedAt": "2025-02-21T12:45:31.698Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Cotización enviada",
+        "displayOrder": 1,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.2"
+        },
+        "id": "23073048",
+        "createdAt": "2022-05-16T15:53:27.931Z",
+        "updatedAt": "2025-02-21T12:45:31.698Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Revisión de crédito",
+        "displayOrder": 2,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.5"
+        },
+        "id": "23073049",
+        "createdAt": "2022-05-16T15:53:27.931Z",
+        "updatedAt": "2025-02-21T12:45:31.698Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Apartada",
+        "displayOrder": 3,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.8"
+        },
+        "id": "23073050",
+        "createdAt": "2022-05-16T15:53:27.931Z",
+        "updatedAt": "2025-02-21T12:45:31.698Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Contrato firmado",
+        "displayOrder": 4,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "1.0"
+        },
+        "id": "23073052",
+        "createdAt": "2022-05-16T15:53:27.931Z",
+        "updatedAt": "2025-02-21T12:45:31.698Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Escritura firmada",
+        "displayOrder": 5,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "1.0"
+        },
+        "id": "23919393",
+        "createdAt": "2022-05-25T16:20:39.700Z",
+        "updatedAt": "2025-02-21T12:45:31.698Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Cierre perdido",
+        "displayOrder": 6,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "23100254",
+        "createdAt": "2022-05-16T15:53:27.931Z",
+        "updatedAt": "2025-02-21T12:45:31.698Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "2022-05-16T15:53:27.931Z",
+    "updatedAt": "2025-02-21T12:45:31.698Z",
+    "archived": false
+  }
+]

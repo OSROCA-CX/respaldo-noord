@@ -1,0 +1,292 @@
+[
+  {
+    "id": "32642259",
+    "email": "a.valdes@osroca.com",
+    "type": "PERSON",
+    "firstName": "Anick",
+    "lastName": "Valdés Cruces",
+    "userId": 6002493,
+    "userIdIncludingInactive": 6002493,
+    "createdAt": "2018-06-18T14:52:44.695Z",
+    "updatedAt": "2023-12-04T19:06:55.386Z",
+    "archived": false,
+    "teams": [
+      {
+        "id": "3648068",
+        "name": "Dirección General",
+        "primary": true
+      },
+      {
+        "id": "3618416",
+        "name": "Mercadeo",
+        "primary": false
+      },
+      {
+        "id": "3648208",
+        "name": "Transversal",
+        "primary": false
+      }
+    ]
+  },
+  {
+    "id": "34497023",
+    "email": "g.solis@osroca.com",
+    "type": "PERSON",
+    "firstName": "Gerardo",
+    "lastName": "Solís Salazar",
+    "userId": 7014726,
+    "userIdIncludingInactive": 7014726,
+    "createdAt": "2018-12-06T19:45:01.010Z",
+    "updatedAt": "2025-05-19T15:18:31.186Z",
+    "archived": false
+  },
+  {
+    "id": "40550043",
+    "email": "ardz@osroca.com",
+    "type": "PERSON",
+    "firstName": "Alejandro",
+    "lastName": "Rodriguez C.",
+    "userId": 9365350,
+    "userIdIncludingInactive": 9365350,
+    "createdAt": "2019-11-21T19:50:39.793Z",
+    "updatedAt": "2023-08-08T16:22:10.847Z",
+    "archived": false
+  },
+  {
+    "id": "45276660",
+    "email": "miguelchavezgo54@gmail.com",
+    "type": "PERSON",
+    "firstName": "miguel",
+    "lastName": "chavez",
+    "userId": 45276660,
+    "userIdIncludingInactive": 45276660,
+    "createdAt": "2025-12-23T22:03:34.986Z",
+    "updatedAt": "2025-12-23T22:03:34.986Z",
+    "archived": false
+  },
+  {
+    "id": "50845851",
+    "email": "c.leon@noord.mx",
+    "type": "PERSON",
+    "firstName": "Christian",
+    "lastName": "León",
+    "userId": 11885704,
+    "userIdIncludingInactive": 11885704,
+    "createdAt": "2020-09-07T16:09:03.401Z",
+    "updatedAt": "2023-11-20T17:04:00.344Z",
+    "archived": false,
+    "teams": [
+      {
+        "id": "68079710",
+        "name": "Asesores",
+        "primary": true
+      }
+    ]
+  },
+  {
+    "id": "56658826",
+    "email": "t.suarez@osroca.com",
+    "type": "PERSON",
+    "firstName": "THANIA",
+    "lastName": "SUAREZ A",
+    "userId": 13010680,
+    "userIdIncludingInactive": 13010680,
+    "createdAt": "2021-01-05T15:42:33.638Z",
+    "updatedAt": "2021-12-27T16:40:48.554Z",
+    "archived": false,
+    "teams": [
+      {
+        "id": "3648207",
+        "name": "Macora 86",
+        "primary": true
+      },
+      {
+        "id": "3618469",
+        "name": "Gerentes",
+        "primary": false
+      }
+    ]
+  },
+  {
+    "id": "60193339",
+    "email": "o.peniche@zensiaresidencial.mx",
+    "type": "PERSON",
+    "firstName": "Omar",
+    "lastName": "Peniche",
+    "userId": 13479113,
+    "userIdIncludingInactive": 13479113,
+    "createdAt": "2021-02-10T22:00:47.263Z",
+    "updatedAt": "2021-04-26T15:02:55.386Z",
+    "archived": false
+  },
+  {
+    "id": "60682655",
+    "email": "l.flores@osroca.com",
+    "type": "PERSON",
+    "firstName": "Lucely",
+    "lastName": "Flores",
+    "userId": 60682655,
+    "userIdIncludingInactive": 60682655,
+    "createdAt": "2026-02-27T18:21:18.454Z",
+    "updatedAt": "2026-02-27T18:25:09.289Z",
+    "archived": false
+  },
+  {
+    "id": "77064782",
+    "email": "claudia.rios@noord.mx",
+    "type": "PERSON",
+    "firstName": "Claudia",
+    "lastName": "Rios",
+    "userId": 77064782,
+    "userIdIncludingInactive": 77064782,
+    "createdAt": "2025-02-04T22:21:32.847Z",
+    "updatedAt": "2025-03-21T16:21:04.846Z",
+    "archived": false,
+    "teams": [
+      {
+        "id": "8131240",
+        "name": "Usuarios de baja",
+        "primary": true
+      }
+    ]
+  },
+  {
+    "id": "81740726",
+    "email": "78e407b5-518c-4b0f-a3bc-c972b5e654cf-4535918@aichatbot.na1.hubspot.com",
+    "type": "PERSON",
+    "firstName": "Prueba",
+    "lastName": "",
+    "userId": 81740726,
+    "userIdIncludingInactive": 81740726,
+    "createdAt": "2025-07-19T13:07:17.329Z",
+    "updatedAt": "2025-07-19T13:07:18.762Z",
+    "archived": false
+  },
+  {
+    "id": "82160945",
+    "email": "j.mendez@noord.mx",
+    "type": "PERSON",
+    "firstName": "Jessica",
+    "lastName": "León",
+    "userId": 82160945,
+    "userIdIncludingInactive": 82160945,
+    "createdAt": "2025-08-04T16:43:54.302Z",
+    "updatedAt": "2026-01-28T21:00:36.958Z",
+    "archived": false
+  },
+  {
+    "id": "85541967",
+    "email": "direccion@convierteadgency.com",
+    "type": "PERSON",
+    "firstName": "Mike",
+    "lastName": "Chávez",
+    "userId": 85541967,
+    "userIdIncludingInactive": 85541967,
+    "createdAt": "2026-01-07T14:47:39.777Z",
+    "updatedAt": "2026-02-18T15:09:03.173Z",
+    "archived": false
+  },
+  {
+    "id": "85542247",
+    "email": "community@convierteadgency.com",
+    "type": "PERSON",
+    "firstName": "Antonio",
+    "lastName": "Hernández",
+    "userId": 85542247,
+    "userIdIncludingInactive": 85542247,
+    "createdAt": "2026-01-07T14:47:39.910Z",
+    "updatedAt": "2026-05-14T20:42:52.803Z",
+    "archived": false
+  },
+  {
+    "id": "85542248",
+    "email": "hola@convierteadgency.com",
+    "type": "PERSON",
+    "firstName": "Natalia",
+    "lastName": "Ramirez",
+    "userId": 85542248,
+    "userIdIncludingInactive": 85542248,
+    "createdAt": "2026-01-07T14:47:39.642Z",
+    "updatedAt": "2026-06-16T14:13:40.487Z",
+    "archived": false
+  },
+  {
+    "id": "85542249",
+    "email": "majo@convierteadgency.com",
+    "type": "PERSON",
+    "firstName": "Majo",
+    "lastName": "Sosa",
+    "userId": 85542249,
+    "userIdIncludingInactive": 85542249,
+    "createdAt": "2026-01-07T14:47:39.507Z",
+    "updatedAt": "2026-05-14T20:50:18.748Z",
+    "archived": false
+  },
+  {
+    "id": "89336283",
+    "email": "c.saavedra@noord.mx",
+    "type": "PERSON",
+    "firstName": "Cristopher Francisco",
+    "lastName": "Saavedra Martinez",
+    "userId": 89336283,
+    "userIdIncludingInactive": 89336283,
+    "createdAt": "2026-03-09T18:38:35.776Z",
+    "updatedAt": "2026-03-10T16:07:09.081Z",
+    "archived": false
+  },
+  {
+    "id": "220967043",
+    "email": "a.gomez@noord.mx",
+    "type": "PERSON",
+    "firstName": "ALLAN",
+    "lastName": "GOMEZ",
+    "userId": 46581397,
+    "userIdIncludingInactive": 46581397,
+    "createdAt": "2022-08-22T21:39:53.125Z",
+    "updatedAt": "2022-12-02T20:50:26.313Z",
+    "archived": false,
+    "teams": [
+      {
+        "id": "3648206",
+        "name": "Palta 152",
+        "primary": true
+      },
+      {
+        "id": "3618469",
+        "name": "Gerentes",
+        "primary": false
+      }
+    ]
+  },
+  {
+    "id": "288556384",
+    "email": "is.perez@osroca.com",
+    "type": "PERSON",
+    "firstName": "Isaac",
+    "lastName": "Pérez",
+    "userId": 48750235,
+    "userIdIncludingInactive": 48750235,
+    "createdAt": "2022-12-19T16:31:54.435Z",
+    "updatedAt": "2025-03-22T18:01:29.760Z",
+    "archived": false
+  },
+  {
+    "id": "1204136275",
+    "email": "v.marin@noord.mx",
+    "type": "PERSON",
+    "firstName": "Victor Jesus",
+    "lastName": "Marin Cab",
+    "userId": 71649931,
+    "userIdIncludingInactive": 71649931,
+    "createdAt": "2024-10-02T22:11:17.716Z",
+    "updatedAt": "2024-10-03T21:56:50.078Z",
+    "archived": false,
+    "teams": [
+      {
+        "id": "12996967",
+        "name": "BDR",
+        "primary": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,5818 @@
+[
+  {
+    "nombre_interno": "amount",
+    "etiqueta": "Amount",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total amount of the deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "amount_in_home_currency",
+    "etiqueta": "Amount in company currency",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "The amount of the deal, using the exchange rate, in your company's currency",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "aparta_la_vivienda",
+    "etiqueta": "Vivienda apartada",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Si",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "No",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "apellido",
+    "etiqueta": "Apellido",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad espejo para apellido del contacto",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "asiste_a_la_cita",
+    "etiqueta": "Estado de asistencia",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Si",
+        "etiqueta": "Sí asistió y quiere continuar"
+      },
+      {
+        "valor": "Sí asistió y no está interesado",
+        "etiqueta": "Sí asistió y no está interesado"
+      },
+      {
+        "valor": "No",
+        "etiqueta": "No asistió"
+      },
+      {
+        "valor": "Nueva cita",
+        "etiqueta": "Cita reagendada"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "borrador_del_contrato_generado",
+    "etiqueta": "Borrador del contrato generado",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para la optimización del proceso comercial.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "canal",
+    "etiqueta": "Canal",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Activaciones",
+        "etiqueta": "Activaciones"
+      },
+      {
+        "valor": "Base de datos",
+        "etiqueta": "Base de datos"
+      },
+      {
+        "valor": "BBVA",
+        "etiqueta": "BBVA"
+      },
+      {
+        "valor": "Bot M54",
+        "etiqueta": "Bot M54"
+      },
+      {
+        "valor": "Bot M86",
+        "etiqueta": "Bot M86"
+      },
+      {
+        "valor": "Bot P152",
+        "etiqueta": "Bot P152"
+      },
+      {
+        "valor": "Bot ZEN",
+        "etiqueta": "Bot ZEN"
+      },
+      {
+        "valor": "Casas y Terrenos",
+        "etiqueta": "Casas y Terrenos"
+      },
+      {
+        "valor": "Diario",
+        "etiqueta": "Diario"
+      },
+      {
+        "valor": "Embajador de la Marca",
+        "etiqueta": "Embajador de la Marca"
+      },
+      {
+        "valor": "Espectaculares",
+        "etiqueta": "Espectaculares"
+      },
+      {
+        "valor": "Expo CDMX",
+        "etiqueta": "Expo CDMX"
+      },
+      {
+        "valor": "Expo E-Bay",
+        "etiqueta": "Expo E-Bay"
+      },
+      {
+        "valor": "Expo Vivienda Canadevi 2018",
+        "etiqueta": "Expo Vivienda Canadevi 2018"
+      },
+      {
+        "valor": "Expo Vivienda Canadevi 2019",
+        "etiqueta": "Expo Vivienda Canadevi 2019"
+      },
+      {
+        "valor": "Expovivienda CANADEVI",
+        "etiqueta": "Expovivienda CANADEVI"
+      },
+      {
+        "valor": "Facebook",
+        "etiqueta": "Facebook"
+      },
+      {
+        "valor": "Feria de la Vivienda CANADEVI 2020",
+        "etiqueta": "Feria de la Vivienda CANADEVI 2020"
+      },
+      {
+        "valor": "Feria de la Vivienda CANADEVI 2021",
+        "etiqueta": "Feria de la Vivienda CANADEVI 2021"
+      },
+      {
+        "valor": "Geomarketing",
+        "etiqueta": "Geomarketing"
+      },
+      {
+        "valor": "Google Adwords",
+        "etiqueta": "Google Adwords"
+      },
+      {
+        "valor": "Inmobiliarias",
+        "etiqueta": "Inmobiliarias"
+      },
+      {
+        "valor": "Inmuebles 24",
+        "etiqueta": "Inmuebles 24"
+      },
+      {
+        "valor": "Instagram",
+        "etiqueta": "Instagram"
+      },
+      {
+        "valor": "Kinea",
+        "etiqueta": "Kinea"
+      },
+      {
+        "valor": "Landing Page",
+        "etiqueta": "Landing Page"
+      },
+      {
+        "valor": "Linkedin",
+        "etiqueta": "Linkedin"
+      },
+      {
+        "valor": "Mailing Noord",
+        "etiqueta": "Mailing Noord"
+      },
+      {
+        "valor": "Perfilan",
+        "etiqueta": "Perfilan"
+      },
+      {
+        "valor": "Portal Inmobiliario",
+        "etiqueta": "Portal Inmobiliario"
+      },
+      {
+        "valor": "Proactividad",
+        "etiqueta": "Proactividad"
+      },
+      {
+        "valor": "Programa de referidos",
+        "etiqueta": "Programa de referidos"
+      },
+      {
+        "valor": "Programa de referidos internos",
+        "etiqueta": "Programa de referidos internos"
+      },
+      {
+        "valor": "Reactivados",
+        "etiqueta": "Reactivados"
+      },
+      {
+        "valor": "Recomendado",
+        "etiqueta": "Recomendado"
+      },
+      {
+        "valor": "Referidos",
+        "etiqueta": "Referidos"
+      },
+      {
+        "valor": "Señalética",
+        "etiqueta": "Señalética"
+      },
+      {
+        "valor": "Simulador",
+        "etiqueta": "Simulador"
+      },
+      {
+        "valor": "Sitio web",
+        "etiqueta": "Sitio web"
+      },
+      {
+        "valor": "TikTok",
+        "etiqueta": "TikTok"
+      },
+      {
+        "valor": "Visitó la zona",
+        "etiqueta": "Visitó la zona"
+      },
+      {
+        "valor": "Vivanuncios",
+        "etiqueta": "Vivanuncios"
+      },
+      {
+        "valor": "Whatsapp",
+        "etiqueta": "Whatsapp"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "closed_lost_reason",
+    "etiqueta": "Detalle del motivo de descarte",
+    "tipo": "string",
+    "tipo_campo": "textarea",
+    "descripcion": "Descripción detallada del motivo por el cual se perdió este negocio",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "closed_won_reason",
+    "etiqueta": "Motivo de CIERRE GANADO",
+    "tipo": "string",
+    "tipo_campo": "textarea",
+    "descripcion": "Reason why this deal was won",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "closedate",
+    "etiqueta": "Close Date",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The expected close date of the deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "company",
+    "etiqueta": "Nombre de la empresa",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "correo",
+    "etiqueta": "Correo",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "cotizacion",
+    "etiqueta": "Cotización",
+    "tipo": "string",
+    "tipo_campo": "file",
+    "descripcion": "Propiedad creada para adjuntar el archivo que contiene la cotización enviada al prospecto.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "covid19",
+    "etiqueta": "COVID19",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Se suspende inversión hasta nuevo aviso",
+        "etiqueta": "Se suspende inversión hasta nuevo aviso"
+      },
+      {
+        "valor": "Hablarme después de la contingencia",
+        "etiqueta": "Hablarme después de la contingencia"
+      },
+      {
+        "valor": "Necesito aplazar pagos debido a incertidumbre",
+        "etiqueta": "Necesito aplazar pagos debido a incertidumbre"
+      },
+      {
+        "valor": "Cancelación de apartado",
+        "etiqueta": "Cancelación de apartado"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "createdate",
+    "etiqueta": "Create Date",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date the deal was created. This property is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "cuando_planea_comprar_",
+    "etiqueta": "¿Cuándo planea comprar?",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Ya estoy listo para comprar",
+        "etiqueta": "Ya estoy listo para comprar"
+      },
+      {
+        "valor": "En 3 meses",
+        "etiqueta": " En 3 meses"
+      },
+      {
+        "valor": "En 6 meses",
+        "etiqueta": "En 6 meses"
+      },
+      {
+        "valor": "En un año",
+        "etiqueta": "En un año"
+      },
+      {
+        "valor": "Solo lo estoy considerando\"",
+        "etiqueta": "Solo lo estoy considerando\""
+      },
+      {
+        "valor": "Luego de vender mi vivienda actual",
+        "etiqueta": "Luego de vender mi vivienda actual"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "datos_de_conyuge",
+    "etiqueta": "Datos de cónyuge verificados",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para la optimización del proceso comercial.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "datos_etapa_cotizacion",
+    "etiqueta": "Datos para etapa de Cotización",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "Propiedad para el flujo del proceso comercial",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Cotizacion emitida",
+        "etiqueta": "Cotización emitida"
+      },
+      {
+        "valor": "Oferta de servicio estudio de credito",
+        "etiqueta": "Servicio estudio de crédito"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "datos_registrados_en_erp",
+    "etiqueta": "Datos registrados en ERP",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para la optimización del proceso comercial.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "days_to_close",
+    "etiqueta": "Days to close",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "The number of days the deal took to close",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "deal_currency_code",
+    "etiqueta": "Currency",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Currency code for the deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "dealname",
+    "etiqueta": "Deal Name",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "The name given to this deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "dealstage",
+    "etiqueta": "Deal Stage",
+    "tipo": "enumeration",
+    "tipo_campo": "radio",
+    "descripcion": "The stage of the deal. Deal stages allow you to categorize and track the progress of the deals that you are working on.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "dealtype",
+    "etiqueta": "Deal Type",
+    "tipo": "enumeration",
+    "tipo_campo": "radio",
+    "descripcion": "The type of deal. By default, categorize your deal as either a New Business or Existing Business.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "newbusiness",
+        "etiqueta": "New Business"
+      },
+      {
+        "valor": "existingbusiness",
+        "etiqueta": "Existing Business"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "dependientes_economicos",
+    "etiqueta": "Dependientes económicos",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "description",
+    "etiqueta": "Deal Description",
+    "tipo": "string",
+    "tipo_campo": "textarea",
+    "descripcion": "Description of the deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "detalle_de_descartado",
+    "etiqueta": "Detalle de DESCARTADO",
+    "tipo": "string",
+    "tipo_campo": "textarea",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "dias_de_apartado",
+    "etiqueta": "Tiempo del apartado",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad para el flujo del proceso comercial",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "10 días",
+        "etiqueta": "10 días"
+      },
+      {
+        "valor": "20 días",
+        "etiqueta": "20 días"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "direccion_de_la_empresa",
+    "etiqueta": "Dirección de la empresa",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "domicilio_referencia_1",
+    "etiqueta": "Domicilio referencia 1",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "domicilio_referencia_2",
+    "etiqueta": "Domicilio referencia 2",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "domicilio_verificado",
+    "etiqueta": "Domicilio verificado",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para la optimización del proceso comercial.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "edad",
+    "etiqueta": "Edad",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "engagements_last_meeting_booked",
+    "etiqueta": "Date of last meeting booked in meetings tool",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date of the most recent meeting an associated contact has booked through the meetings tool.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "engagements_last_meeting_booked_campaign",
+    "etiqueta": "Campaign of last booking in meetings tool",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "This UTM parameter shows which marketing campaign (e.g. a specific email) referred an associated contact to the meetings tool for their most recent booking. This property is only populated when you add tracking parameters to your meeting link.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "engagements_last_meeting_booked_medium",
+    "etiqueta": "Medium of last booking in meetings tool",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "This UTM parameter shows which channel (e.g. email) referred an associated contact to the meetings tool for their most recent booking. This property is only populated when you add tracking parameters to your meeting link.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "engagements_last_meeting_booked_source",
+    "etiqueta": "Source of last booking in meetings tool",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "This UTM parameter shows which site (e.g. Twitter) referred an associated contact to the meetings tool for their most recent booking. This property is only populated when you add tracking parameters to your meeting link. ",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "estado_civil",
+    "etiqueta": "Estado civil",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [
+      {
+        "valor": "Soltero",
+        "etiqueta": "Soltero"
+      },
+      {
+        "valor": "Casado",
+        "etiqueta": "Casado"
+      },
+      {
+        "valor": "Divorciado",
+        "etiqueta": "Divorciado"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "estatura",
+    "etiqueta": "Estatura",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "estatus_de_apartado",
+    "etiqueta": "Estatus de APARTADO",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "En Espera",
+        "etiqueta": "En Espera"
+      },
+      {
+        "valor": "Realizado",
+        "etiqueta": "Realizado"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "estudio_credito",
+    "etiqueta": "¿Se ofreció estudio de crédito?",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para reemplazar la propiedad Datos para etapa de cotización.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "etapa_referido",
+    "etiqueta": "Etapa en la que fue referido",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad espejo de contacto para conocer los referidos.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Antes del pipeline",
+        "etiqueta": "Antes del pipeline"
+      },
+      {
+        "valor": "Llamada de conexión",
+        "etiqueta": "Presentación agendada"
+      },
+      {
+        "valor": "Cotización",
+        "etiqueta": "Cotización enviada"
+      },
+      {
+        "valor": "En revisión de crédito",
+        "etiqueta": "En revisión de crédito"
+      },
+      {
+        "valor": "Apartada",
+        "etiqueta": "Apartada"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "fecha_cita",
+    "etiqueta": "Fecha de la cita",
+    "tipo": "date",
+    "tipo_campo": "date",
+    "descripcion": "Propiedad para el flujo del proceso comercial",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "fecha_de_apartado",
+    "etiqueta": "Fecha de apartado",
+    "tipo": "date",
+    "tipo_campo": "date",
+    "descripcion": "Propiedad creada para marcar el día de inicio del apartado pagado por el prospecto.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "fecha_de_ingreso",
+    "etiqueta": "Fecha de ingreso",
+    "tipo": "date",
+    "tipo_campo": "date",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "fecha_de_nacimiento",
+    "etiqueta": "Fecha de nacimiento",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "fecha_general",
+    "etiqueta": "Fecha general",
+    "tipo": "date",
+    "tipo_campo": "date",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "fecha_vencimiento_apartado",
+    "etiqueta": "Fecha vencimiento apartado",
+    "tipo": "date",
+    "tipo_campo": "date",
+    "descripcion": "Propiedad creada para marcar el día de inicio del apartado pagado por el prospecto.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "firma_contrato",
+    "etiqueta": "Firma del contrato",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Si",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "No",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "formato_para_gerencia_completado",
+    "etiqueta": "Formato para Gerencia completado",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para la optimización del proceso comercial.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "formato_precalificacion",
+    "etiqueta": "Formato de precalificación",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad para el flujo del proceso comercial",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "funciones_desempena",
+    "etiqueta": "Funciones que desempeña",
+    "tipo": "string",
+    "tipo_campo": "textarea",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "gerente_desarrollo",
+    "etiqueta": "Gerente del desarrollo",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad de negocio en la que se asigna uno de los cuatro gerentes, de acuerdo con el proyecto de interés del prospecto.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "gestion_etapa_apartado",
+    "etiqueta": "Gestión del proceso etapa Apartada",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "Propiedad para el flujo del proceso comercial",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Pago promesa de compraventa",
+        "etiqueta": "Pago promesa de compraventa"
+      },
+      {
+        "valor": "Registro ERP",
+        "etiqueta": "Registro de datos en ERP"
+      },
+      {
+        "valor": "Validacion tesoreria",
+        "etiqueta": "Validación de tesorería"
+      },
+      {
+        "valor": "Generar borrador de contrato",
+        "etiqueta": "Generar borrador de contrato"
+      },
+      {
+        "valor": "Llenar formato para Gerencia",
+        "etiqueta": "Llenar formato para Gerencia"
+      },
+      {
+        "valor": "Datos domicilio y conyuge",
+        "etiqueta": "Verificar datos de domicilio y cónyuge"
+      },
+      {
+        "valor": "Perfeccionamiento acuerdo de pago",
+        "etiqueta": "Perfeccionamiento acuerdo de pago"
+      },
+      {
+        "valor": "Resolucion de dudas",
+        "etiqueta": "Resolución de dudas (contrato, entrega, escrituras)"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "gestion_revision_credito",
+    "etiqueta": "Gestión y revisión de crédito",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "Propiedad para el flujo del proceso comercial",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Negociacion oferta comercial",
+        "etiqueta": "Negociación oferta comercial"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hora_cita",
+    "etiqueta": "Hora de la cita",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para el flujo del proceso comercial",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_actual_duration",
+    "etiqueta": "Actual duration",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Calculates the time between the create date and close date. If the create date occurs after the close date, the value returned is 0.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_acv",
+    "etiqueta": "Annual contract value",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The annual contract value (ACV) of this deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_all_accessible_team_ids",
+    "etiqueta": "All teams",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_all_assigned_business_unit_ids",
+    "etiqueta": "Brands",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The brands this record is assigned to.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_all_collaborator_owner_ids",
+    "etiqueta": "Deal Collaborator",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "Owner ids of the users involved in closing the deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_all_deal_split_owner_ids",
+    "etiqueta": "Deal Split Users",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The owner ids of all associated Deal Splits. This property is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_all_owner_ids",
+    "etiqueta": "All owner IDs",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Values of all default and custom owner properties for this record.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_all_team_ids",
+    "etiqueta": "All team IDs",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The team IDs of all default and custom owner properties for this record.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source",
+    "etiqueta": "Latest Traffic Source",
+    "tipo": "enumeration",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Source for the contact either directly or indirectly associated with the last session activity for this deal",
+    "grupo": "analyticsinformation",
+    "opciones": [
+      {
+        "valor": "ORGANIC_SEARCH",
+        "etiqueta": "Organic Search"
+      },
+      {
+        "valor": "PAID_SEARCH",
+        "etiqueta": "Paid Search"
+      },
+      {
+        "valor": "EMAIL_MARKETING",
+        "etiqueta": "Email Marketing"
+      },
+      {
+        "valor": "SOCIAL_MEDIA",
+        "etiqueta": "Organic Social"
+      },
+      {
+        "valor": "REFERRALS",
+        "etiqueta": "Referrals"
+      },
+      {
+        "valor": "OTHER_CAMPAIGNS",
+        "etiqueta": "Other Campaigns"
+      },
+      {
+        "valor": "DIRECT_TRAFFIC",
+        "etiqueta": "Direct Traffic"
+      },
+      {
+        "valor": "OFFLINE",
+        "etiqueta": "Offline Sources"
+      },
+      {
+        "valor": "PAID_SOCIAL",
+        "etiqueta": "Paid Social"
+      },
+      {
+        "valor": "AI_REFERRALS",
+        "etiqueta": "AI Referrals"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_company",
+    "etiqueta": "Latest Traffic Source Company",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Source for the company with an associated contact with the last session activity for this deal",
+    "grupo": "analyticsinformation",
+    "opciones": [
+      {
+        "valor": "ORGANIC_SEARCH",
+        "etiqueta": "Organic Search"
+      },
+      {
+        "valor": "PAID_SEARCH",
+        "etiqueta": "Paid Search"
+      },
+      {
+        "valor": "EMAIL_MARKETING",
+        "etiqueta": "Email Marketing"
+      },
+      {
+        "valor": "SOCIAL_MEDIA",
+        "etiqueta": "Organic Social"
+      },
+      {
+        "valor": "REFERRALS",
+        "etiqueta": "Referrals"
+      },
+      {
+        "valor": "OTHER_CAMPAIGNS",
+        "etiqueta": "Other Campaigns"
+      },
+      {
+        "valor": "DIRECT_TRAFFIC",
+        "etiqueta": "Direct Traffic"
+      },
+      {
+        "valor": "OFFLINE",
+        "etiqueta": "Offline Sources"
+      },
+      {
+        "valor": "PAID_SOCIAL",
+        "etiqueta": "Paid Social"
+      },
+      {
+        "valor": "AI_REFERRALS",
+        "etiqueta": "AI Referrals"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_contact",
+    "etiqueta": "Latest Traffic Source Contact",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Source for the directly associated contact with the last session activity for this deal",
+    "grupo": "analyticsinformation",
+    "opciones": [
+      {
+        "valor": "ORGANIC_SEARCH",
+        "etiqueta": "Organic Search"
+      },
+      {
+        "valor": "PAID_SEARCH",
+        "etiqueta": "Paid Search"
+      },
+      {
+        "valor": "EMAIL_MARKETING",
+        "etiqueta": "Email Marketing"
+      },
+      {
+        "valor": "SOCIAL_MEDIA",
+        "etiqueta": "Organic Social"
+      },
+      {
+        "valor": "REFERRALS",
+        "etiqueta": "Referrals"
+      },
+      {
+        "valor": "OTHER_CAMPAIGNS",
+        "etiqueta": "Other Campaigns"
+      },
+      {
+        "valor": "DIRECT_TRAFFIC",
+        "etiqueta": "Direct Traffic"
+      },
+      {
+        "valor": "OFFLINE",
+        "etiqueta": "Offline Sources"
+      },
+      {
+        "valor": "PAID_SOCIAL",
+        "etiqueta": "Paid Social"
+      },
+      {
+        "valor": "AI_REFERRALS",
+        "etiqueta": "AI Referrals"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_data_1",
+    "etiqueta": "Latest Traffic Source Data 1",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Additional source details of the last session attributed to any contacts that are directly or indirectly associated with this deal",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_data_1_company",
+    "etiqueta": "Latest Traffic Source Data 1 Company",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Additional source details of the last session attributed to any contacts that are indirectly associated with this deal (via a company association)",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_data_1_contact",
+    "etiqueta": "Latest Traffic Source Data 1 Contact",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Additional source details of the last session attributed to any contacts that are directly associated with this deal",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_data_2",
+    "etiqueta": "Latest Traffic Source Data 2",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Additional source details of the last session attributed to any contacts that are directly or indirectly associated with this deal",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_data_2_company",
+    "etiqueta": "Latest Traffic Source Data 2 Company",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Additional source details of the last session attributed to any contacts that are indirectly associated with this deal",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_data_2_contact",
+    "etiqueta": "Latest Traffic Source Data 2 Contact",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Additional source details of the last session attributed to any contacts that are directly associated with this deal",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_timestamp",
+    "etiqueta": "Latest Traffic Source Timestamp",
+    "tipo": "datetime",
+    "tipo_campo": "number",
+    "descripcion": "Timestamp of when latest source occurred for either a directly or indirectly associated contact",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_timestamp_company",
+    "etiqueta": "Latest Traffic Source Timestamp Company",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "Timestamp of when latest source occurred for an indirectly associated contact",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_latest_source_timestamp_contact",
+    "etiqueta": "Latest Traffic Source Timestamp Contact",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "Timestamp of when latest source occurred for a directly associated contact",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_source",
+    "etiqueta": "Original Traffic Source",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Original source for the contact with the earliest activity for this deal.",
+    "grupo": "analyticsinformation",
+    "opciones": [
+      {
+        "valor": "ORGANIC_SEARCH",
+        "etiqueta": "Organic Search"
+      },
+      {
+        "valor": "PAID_SEARCH",
+        "etiqueta": "Paid Search"
+      },
+      {
+        "valor": "EMAIL_MARKETING",
+        "etiqueta": "Email Marketing"
+      },
+      {
+        "valor": "SOCIAL_MEDIA",
+        "etiqueta": "Organic Social"
+      },
+      {
+        "valor": "REFERRALS",
+        "etiqueta": "Referrals"
+      },
+      {
+        "valor": "OTHER_CAMPAIGNS",
+        "etiqueta": "Other Campaigns"
+      },
+      {
+        "valor": "DIRECT_TRAFFIC",
+        "etiqueta": "Direct Traffic"
+      },
+      {
+        "valor": "OFFLINE",
+        "etiqueta": "Offline Sources"
+      },
+      {
+        "valor": "PAID_SOCIAL",
+        "etiqueta": "Paid Social"
+      },
+      {
+        "valor": "AI_REFERRALS",
+        "etiqueta": "AI Referrals"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_source_data_1",
+    "etiqueta": "Original Traffic Source Drill-Down 1",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Additional information about the original source for the associated contact, or associated company if there is no contact, with the oldest value for the Time first seen property.",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_analytics_source_data_2",
+    "etiqueta": "Original Traffic Source Drill-Down 2",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Additional information about the original source for the associated contact, or associated company if there is no contact, with the oldest value for the Time first seen property.",
+    "grupo": "analyticsinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_arr",
+    "etiqueta": "Annual recurring revenue",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The annual recurring revenue (ARR) of this deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_associated_deal_registration_deal_type",
+    "etiqueta": "Associated Shared Deal Type",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The deal type of the associated Shared Deal. (This field is only accurate on Partner portals!)",
+    "grupo": "deal_activity",
+    "opciones": [
+      {
+        "valor": "CHANNEL",
+        "etiqueta": "Channel"
+      },
+      {
+        "valor": "BEST_PARTNER_WINS",
+        "etiqueta": "Best Partner Wins"
+      },
+      {
+        "valor": "DIFM",
+        "etiqueta": "Partner Assisted"
+      },
+      {
+        "valor": "COLLAB",
+        "etiqueta": "Partner Sourced"
+      },
+      {
+        "valor": "COLLAB_OR_DIFM",
+        "etiqueta": "Partner Sourced or Assisted"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_associated_deal_registration_product_interests",
+    "etiqueta": "Associated Shared Deal Product Interests",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The most likely HubSpot product(s) of the deal synced from the associated Shared Deal. (This field is only accurate on Partner portals!)",
+    "grupo": "deal_activity",
+    "opciones": [
+      {
+        "valor": "Additional Portal",
+        "etiqueta": "Additional Portal"
+      },
+      {
+        "valor": "Ads Add-On",
+        "etiqueta": "Ads Add-On"
+      },
+      {
+        "valor": "Brand Domain",
+        "etiqueta": "Brand Domain"
+      },
+      {
+        "valor": "Calculated Properties Limit Increase",
+        "etiqueta": "Calculated Properties Limit Increase"
+      },
+      {
+        "valor": "Content Hub Enterprise",
+        "etiqueta": "Content Hub Enterprise"
+      },
+      {
+        "valor": "Content Hub Professional",
+        "etiqueta": "Content Hub Professional"
+      },
+      {
+        "valor": "Content Hub Starter",
+        "etiqueta": "Content Hub Starter"
+      },
+      {
+        "valor": "CMS Enterprise",
+        "etiqueta": "CMS Enterprise"
+      },
+      {
+        "valor": "CMS Professional",
+        "etiqueta": "CMS Professional"
+      },
+      {
+        "valor": "HubSpot CMS",
+        "etiqueta": "CMS Starter"
+      },
+      {
+        "valor": "CRM Contact Records Limit Increase",
+        "etiqueta": "CRM Contact Records Limit Increase"
+      },
+      {
+        "valor": "CRM Object Limit Increase",
+        "etiqueta": "CRM Object Limit Increase"
+      },
+      {
+        "valor": "CRM Suite Enterprise",
+        "etiqueta": "CRM Suite Enterprise"
+      },
+      {
+        "valor": "CRM Suite Professional",
+        "etiqueta": "CRM Suite Professional"
+      },
+      {
+        "valor": "CRM Suite Starter",
+        "etiqueta": "CRM Suite Starter"
+      },
+      {
+        "valor": "Custom Properties Limit Increase",
+        "etiqueta": "Custom Properties Limit Increase"
+      },
+      {
+        "valor": "Custom SSL",
+        "etiqueta": "Custom SSL"
+      },
+      {
+        "valor": "Dedicated IP",
+        "etiqueta": "Dedicated IP"
+      },
+      {
+        "valor": "Marketing+ Enterprise",
+        "etiqueta": "Marketing+ Enterprise"
+      },
+      {
+        "valor": "Marketing+ Professional",
+        "etiqueta": "Marketing+ Professional"
+      },
+      {
+        "valor": "Marketing Hub Enterprise",
+        "etiqueta": "Marketing Hub Enterprise"
+      },
+      {
+        "valor": "Marketing Hub Professional",
+        "etiqueta": "Marketing Hub Professional"
+      },
+      {
+        "valor": "Marketing Hub Starter",
+        "etiqueta": "Marketing Hub Starter"
+      },
+      {
+        "valor": "Marketing SMS Add-On",
+        "etiqueta": "Marketing SMS Add-On"
+      },
+      {
+        "valor": "Marketing SMS Limit Increase",
+        "etiqueta": "Marketing SMS Limit Increase"
+      },
+      {
+        "valor": "Monthly Consulting",
+        "etiqueta": "Monthly Consulting"
+      },
+      {
+        "valor": "Ongoing Consulting",
+        "etiqueta": "Ongoing Consulting"
+      },
+      {
+        "valor": "Operations Hub Enterprise",
+        "etiqueta": "Operations Hub Enterprise"
+      },
+      {
+        "valor": "Operations Hub Professional",
+        "etiqueta": "Operations Hub Professional"
+      },
+      {
+        "valor": "Operations Hub Starter",
+        "etiqueta": "Operations Hub Starter"
+      },
+      {
+        "valor": "Premium Consulting",
+        "etiqueta": "Premium Consulting"
+      },
+      {
+        "valor": "Reporting Add-On",
+        "etiqueta": "Reporting Add-On"
+      },
+      {
+        "valor": "Sales Hub Enterprise",
+        "etiqueta": "Sales Hub Enterprise"
+      },
+      {
+        "valor": "Sales Hub Professional",
+        "etiqueta": "Sales Hub Professional"
+      },
+      {
+        "valor": "Sales Hub Starter",
+        "etiqueta": "Sales Hub Starter"
+      },
+      {
+        "valor": "Service Hub Enterprise",
+        "etiqueta": "Service Hub Enterprise"
+      },
+      {
+        "valor": "Service Hub Professional",
+        "etiqueta": "Service Hub Professional"
+      },
+      {
+        "valor": "Service Hub Starter",
+        "etiqueta": "Service Hub Starter"
+      },
+      {
+        "valor": "Solutions Partner",
+        "etiqueta": "Solutions Partner"
+      },
+      {
+        "valor": "Solutions Provider",
+        "etiqueta": "Solutions Provider"
+      },
+      {
+        "valor": "Technical Consulting",
+        "etiqueta": "Technical Consulting"
+      },
+      {
+        "valor": "Transactional Email",
+        "etiqueta": "Transactional Email"
+      },
+      {
+        "valor": "100 Breeze Intelligence Credits",
+        "etiqueta": "100 Breeze Intelligence Credits"
+      },
+      {
+        "valor": "1000 Breeze Intelligence Credits",
+        "etiqueta": "1000 Breeze Intelligence Credits"
+      },
+      {
+        "valor": "10000 Breeze Intelligence Credits",
+        "etiqueta": "10000 Breeze Intelligence Credits"
+      },
+      {
+        "valor": "Breeze Intelligence Backfill Enrichment",
+        "etiqueta": "Breeze Intelligence Backfill Enrichment"
+      },
+      {
+        "valor": "Smart CRM Professional",
+        "etiqueta": "Smart CRM Professional"
+      },
+      {
+        "valor": "Smart CRM Enterprise",
+        "etiqueta": "Smart CRM Enterprise"
+      },
+      {
+        "valor": "HubSpot Committed Credits (Auto-upgrade)",
+        "etiqueta": "HubSpot Committed Credits (Auto-upgrade)"
+      },
+      {
+        "valor": "Starter Customer Platform",
+        "etiqueta": "Starter Customer Platform"
+      },
+      {
+        "valor": "Professional Customer Platform",
+        "etiqueta": "Professional Customer Platform"
+      },
+      {
+        "valor": "Enterprise Customer Platform",
+        "etiqueta": "Enterprise Customer Platform"
+      },
+      {
+        "valor": "Core Seats Starter",
+        "etiqueta": "Core Seats Starter"
+      },
+      {
+        "valor": "Core Seats Professional",
+        "etiqueta": "Core Seats Professional"
+      },
+      {
+        "valor": "Core Seats Enterprise",
+        "etiqueta": "Core Seats Enterprise"
+      },
+      {
+        "valor": "Data Hub Starter",
+        "etiqueta": "Data Hub Starter"
+      },
+      {
+        "valor": "Data Hub Professional",
+        "etiqueta": "Data Hub Professional"
+      },
+      {
+        "valor": "Data Hub Enterprise",
+        "etiqueta": "Data Hub Enterprise"
+      },
+      {
+        "valor": "Commerce Hub Starter",
+        "etiqueta": "Commerce Hub Starter"
+      },
+      {
+        "valor": "Commerce Hub Professional",
+        "etiqueta": "Commerce Hub Professional"
+      },
+      {
+        "valor": "Commerce Hub Enterprise",
+        "etiqueta": "Commerce Hub Enterprise"
+      },
+      {
+        "valor": "HubSpot Credits Capacity Packs",
+        "etiqueta": "HubSpot Credits Capacity Packs"
+      },
+      {
+        "valor": "AEO Answers Limit Increase",
+        "etiqueta": "AEO Answers Limit Increase"
+      },
+      {
+        "valor": "Workflows Limit Increase",
+        "etiqueta": "Workflows Limit Increase"
+      },
+      {
+        "valor": "HubSpot AEO",
+        "etiqueta": "HubSpot AEO"
+      },
+      {
+        "valor": "Conversational Context Limit Increase",
+        "etiqueta": "Conversational Context Limit Increase"
+      },
+      {
+        "valor": "Revenue Hub Professional",
+        "etiqueta": "Revenue Hub Professional"
+      },
+      {
+        "valor": "Revenue Hub Enterprise",
+        "etiqueta": "Revenue Hub Enterprise"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_attributed_team_ids",
+    "etiqueta": "Attributed reporting team",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The set of teams that this deal is attributed to. If an owner is specified at the time of creation, the record will default to the owner's primary team.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_average_call_duration",
+    "etiqueta": "Average call duration",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The average call duration of calls associated to the deal",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_average_deal_owner_duration_in_current_stage",
+    "etiqueta": "Average Deal Owner Duration In Current Stage",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "Time duration of the calculated average time of closed-won deals spent in current pipeline stage",
+    "grupo": "dealscripted",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_campaign",
+    "etiqueta": "HubSpot Campaign",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "The marketing campaign the deal is associated with",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_closed_amount",
+    "etiqueta": "Closed Deal Amount",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Returns the amount if the deal is closed. Else, returns 0.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_closed_amount_in_home_currency",
+    "etiqueta": "Closed deal amount in home currency",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "The amount in home currency that was closed for deals that were won.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_closed_deal_close_date",
+    "etiqueta": "Closed Deal Close Date",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Close date populated only if this deal is closed and valid",
+    "grupo": "dealscripted",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_closed_deal_create_date",
+    "etiqueta": "Closed Deal Create Date",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Create date populated only if this deal is closed",
+    "grupo": "dealscripted",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_closed_won_count",
+    "etiqueta": "Closed won count",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "This property is 1 if the deal is closed won, otherwise 0.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_closed_won_date",
+    "etiqueta": "Closed Won Date (Internal)",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "Returns closedate if this deal is closed won",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_created_by_user_id",
+    "etiqueta": "Created by user ID",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The user who created this record. This value is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_createdate",
+    "etiqueta": "HubSpot Create Date",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date the deal was created. This property is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_cross_account_note",
+    "etiqueta": "Cross-account Note",
+    "tipo": "string",
+    "tipo_campo": "textarea",
+    "descripcion": "Add cross-account note property to deal, allowing users to set a note when copying a deal in another account.",
+    "grupo": "multiaccountmanagement",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_cross_sell_opportunity",
+    "etiqueta": "Cross-sell Opportunity",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Identify a deal as a good candidate for cross-selling programs.",
+    "grupo": "multiaccountmanagement",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Yes"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_days_to_close_raw",
+    "etiqueta": "Days to close (without rounding)",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "The number of days the deal took to close, without rounding",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_deal_amount_calculation_preference",
+    "etiqueta": "Deal amount calculation preference",
+    "tipo": "enumeration",
+    "tipo_campo": "radio",
+    "descripcion": "Specifies how deal amount should be calculated from line items",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "TCV",
+        "etiqueta": "Total Contract Value"
+      },
+      {
+        "valor": "ARR",
+        "etiqueta": "Annual Recurring Revenue"
+      },
+      {
+        "valor": "MRR",
+        "etiqueta": "Monthly Recurring Revenue"
+      },
+      {
+        "valor": "CUSTOM",
+        "etiqueta": "Custom"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_deal_registration_mrr",
+    "etiqueta": "HubSpot Shared Deal MRR",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "MRR of the quote purchased for this Shared Deal.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_deal_registration_mrr_currency_code",
+    "etiqueta": "HubSpot Shared Deal MRR Currency Code",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Currency code for the MRR of the quote purchased for this Shared Deal.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_deal_score",
+    "etiqueta": "Deal Score",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The predictive deal score calculated by Hubspot AI to score the deal health",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_deal_stage_probability",
+    "etiqueta": "Deal probability",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The probability a deal will close. This defaults to the deal stage probability setting.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_deal_stage_probability_shadow",
+    "etiqueta": "Deal stage probability shadow",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Fall back property for calculating the deal stage when no customer override exist.  Probability between 0 and 1 of deal stage. Defaults to 0 for unknown deal stages.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_exchange_rate",
+    "etiqueta": "Exchange rate",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "This is the exchange rate used to convert the deal amount into your company currency.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_forecast_amount",
+    "etiqueta": "Forecast amount",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The custom forecasted deal value calculated by multiplying the forecast probability and deal amount in your company’s currency.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_forecast_probability",
+    "etiqueta": "Forecast probability",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The custom percent probability a deal will close.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_form_id",
+    "etiqueta": "Form ID",
+    "tipo": "string",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "ID of the form that created the Deal object",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_has_empty_conditional_stage_properties",
+    "etiqueta": "Has Empty Conditional Stage Properties",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "True if the deal is missing conditional stage property values required to progress to the next deal stage.  This is set automatically by HubSpot based on user actions in the deal record.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Yes"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_has_last_conversation_follow_ups",
+    "etiqueta": "Has Last Conversation Follow Ups",
+    "tipo": "bool",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Indicates if the most recent conversation has follow ups. True if hs_last_conversation_with_followups_object_coordinates has a value, false otherwise.",
+    "grupo": "deal_activity",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Yes"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_has_last_meeting_followups",
+    "etiqueta": "Has Last Meeting Follow Ups",
+    "tipo": "bool",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Indicates if the most recent meeting has follow ups. True if hs_last_meeting_id_with_followups has a value, false otherwise.",
+    "grupo": "deal_activity",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_active_shared_deal",
+    "etiqueta": "Is Active Shared Deal",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Indicates if the current deal is an active shared deal. It is set automatically based on the value of hs_num_associated_active_deal_registrations.",
+    "grupo": "deal_activity",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Yes"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_closed",
+    "etiqueta": "Is Deal Closed?",
+    "tipo": "bool",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "True if the deal was won or lost.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_closed_count",
+    "etiqueta": "Is Closed (numeric)",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "This property is 1 if the deal is closed (\"Closed Won\" or \"Closed Lost\"), otherwise 0",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_closed_lost",
+    "etiqueta": "Is closed lost",
+    "tipo": "bool",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "True if the deal is in the closed lost state, false otherwise",
+    "grupo": "deal_activity",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_closed_won",
+    "etiqueta": "Is Closed Won",
+    "tipo": "bool",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "True if the deal is in the closed won state, false otherwise",
+    "grupo": "deal_activity",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_deal_split",
+    "etiqueta": "Deal Split Added",
+    "tipo": "bool",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Indicates if the deal is split between multiple users.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_in_first_deal_stage",
+    "etiqueta": "Is In First Deal Stage",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "True if the deal is in the first stage of its pipeline. This is set automatically by HubSpot based on user actions in the deal record.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Yes"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_open_count",
+    "etiqueta": "Is Open (numeric)",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "This property is 1 if the deal is not closed won or closed lost, otherwise 0",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_stalled",
+    "etiqueta": "Is Stalled",
+    "tipo": "bool",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "True if Time in stage is 20% longer than the deal owner’s closed-won average time for that stage, false otherwise.",
+    "grupo": "dealscripted",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "true"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "false"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_is_stalled_after_timestamp",
+    "etiqueta": "Is Stalled After Timestamp",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "Timestamp when Time in stage became 20% longer than the deal owner’s closed-won average for that stage.",
+    "grupo": "dealscripted",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_last_call_id_with_followups",
+    "etiqueta": "Last call ID with followups",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The object ID of the most recent call that has follow-up items to complete",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_last_conversation_with_followups_object_coordinates",
+    "etiqueta": "Last conversation with follow-ups",
+    "tipo": "object_coordinates",
+    "tipo_campo": "text",
+    "descripcion": "Object coordinates of the last conversation with followups",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_last_gs_shared_message",
+    "etiqueta": "Last GS Shared Message",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "when was the last gs shared message?",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_last_meeting_id_with_followups",
+    "etiqueta": "Last meeting ID with followups",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The object ID of the most recent meeting that has follow-up items to complete",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_last_partner_shared_message_date",
+    "etiqueta": "Last Partner Shared Message Date",
+    "tipo": "date",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "When was the last shared message sent on this deal by a Partner?",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_last_shared_message_create_date",
+    "etiqueta": "Last Shared Message Create Date",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The date of the most recent shared message on this deal.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_lastmodifieddate",
+    "etiqueta": "Last Modified Date",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "Most recent timestamp of any property update for this deal. This includes HubSpot internal properties, which can be visible or hidden. This property is updated automatically.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_approval_status",
+    "etiqueta": "Latest Approval Status",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "The latest approval status. Used by HubSpot to track pipeline approval processes.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_approval_status_approval_id",
+    "etiqueta": "Latest Approval Status Approval ID",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The ID of the approval object containing the latest approval status.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_marketing_email_click_date",
+    "etiqueta": "Latest marketing email click date",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The timestamp of the most recent marketing email click for an associated contact",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_marketing_email_open_date",
+    "etiqueta": "Latest marketing email open date",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The timestamp of the most recent marketing email open for an associated contact",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_marketing_email_reply_date",
+    "etiqueta": "Latest marketing email reply date",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The timestamp of the most recent marketing email reply for an associated contact",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_meeting_activity",
+    "etiqueta": "Latest meeting activity",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date of the most recent meeting (past or upcoming) logged for, scheduled with, or booked by a contact associated with this deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_sales_email_click_date",
+    "etiqueta": "Latest sales email click date",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The timestamp of the most recent sales email click for an associated contact",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_sales_email_open_date",
+    "etiqueta": "Latest sales email open date",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The timestamp of the most recent sales email open for an associated contact",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_latest_sales_email_reply_date",
+    "etiqueta": "Latest sales email reply date",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The timestamp of the most recent sales email reply for an associated contact",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_likelihood_to_close",
+    "etiqueta": "Likelihood to close by the close date",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "Hubspot predicted likelihood between 0 and 1 of the deal to close by the close date.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_context_id",
+    "etiqueta": "Line item context ID",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "ID reference to a LineItemContext object that stores additional context around the Line Items associated to this Deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_global_term_hs_discount_percentage",
+    "etiqueta": "Global Term Line Item Discount Percentage",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "For internal HubSpot Application use only. Global term for the discount percentage applied.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_global_term_hs_discount_percentage_enabled",
+    "etiqueta": "Global Term Line Item Discount Percentage Enabled",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "For internal HubSpot Application use only. Indicates if the Global term for the discount percentage is enabled.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_global_term_hs_recurring_billing_period",
+    "etiqueta": "Global Term Line Item Recurring Billing Period",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "For internal HubSpot Application use only. Global term for product recurring billing duration.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_global_term_hs_recurring_billing_period_enabled",
+    "etiqueta": "Global Term Line Item Recurring Billing Period Enabled",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "For internal HubSpot Application use only. Indicates if the Global term for product recurring billing duration is enabled.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_global_term_hs_recurring_billing_start_date",
+    "etiqueta": "Global Term Line Item Recurring Billing Start Date",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "For internal HubSpot Application use only. Global term for recurring billing start date for a line item.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_global_term_hs_recurring_billing_start_date_enabled",
+    "etiqueta": "Global Term Line Item Recurring Billing Start Date Enabled",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "For internal HubSpot Application use only. Indicates if the Global term for recurring billing start date for a line item is enabled.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_global_term_recurringbillingfrequency",
+    "etiqueta": "Global Term Line Item Recurring Billing Frequency",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "For internal HubSpot Application use only. Global term for how frequently the product is billed.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_line_item_global_term_recurringbillingfrequency_enabled",
+    "etiqueta": "Global Term Line Item Recurring Billing Frequency Enabled",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "For internal HubSpot Application use only. Indicates if the Global term for how frequently the product is billed is enabled",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_manual_campaign_ids",
+    "etiqueta": "Manual campaign ids",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The campaign object ids of deals manually associated to campaigns",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_manual_forecast_category",
+    "etiqueta": "Forecast category",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The likelihood a deal will close. This property is used for manual forecasting your deals.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "OMIT",
+        "etiqueta": "Not forecasted"
+      },
+      {
+        "valor": "PIPELINE",
+        "etiqueta": "Pipeline"
+      },
+      {
+        "valor": "BEST_CASE",
+        "etiqueta": "Best case"
+      },
+      {
+        "valor": "COMMIT",
+        "etiqueta": "Commit"
+      },
+      {
+        "valor": "CLOSED",
+        "etiqueta": "Closed won"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_merged_object_ids",
+    "etiqueta": "Merged Deal IDs",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The list of Deal record IDs that have been merged into this Deal. This value is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_mrr",
+    "etiqueta": "Monthly recurring revenue",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The monthly recurring revenue (MRR) of this deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_net_pipeline_impact",
+    "etiqueta": "Net Pipeline Impact",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "This property is intended for measuring pipeline impact in the Deal Pipeline Waterfall report in Sales Analytics. It is dynamically calculated and utilized as a metric by the HistoricalReportingService. ",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_next_meeting_id",
+    "etiqueta": "Next Meeting",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_next_meeting_name",
+    "etiqueta": "Next Meeting Name",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_next_meeting_start_time",
+    "etiqueta": "Next Meeting Start Time",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_next_step",
+    "etiqueta": "Next step",
+    "tipo": "string",
+    "tipo_campo": "textarea",
+    "descripcion": "A short description of the next step for the deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_next_step_updated_at",
+    "etiqueta": "Next Step Updated At",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Timestamp of the most recent update to Next Step property",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_notes_last_activity",
+    "etiqueta": "Last Activity",
+    "tipo": "object_coordinates",
+    "tipo_campo": "text",
+    "descripcion": "The coordinates of the last activity for a deal. This is set automatically by HubSpot based on user actions in the deal record.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_notes_next_activity",
+    "etiqueta": "Next Activity",
+    "tipo": "object_coordinates",
+    "tipo_campo": "text",
+    "descripcion": "The coordinates of the next upcoming activity for a deal. This is set automatically by HubSpot based on user actions in the deal record.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_notes_next_activity_type",
+    "etiqueta": "Next Activity Type",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The type of the next upcoming activity for a deal. This property is set automatically by HubSpot based on user action. This includes logging a future call, sales email, or meeting using the Log feature, as well as creating a future task or scheduling a future meeting. This is updated automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "CALL",
+        "etiqueta": "Call"
+      },
+      {
+        "valor": "CONVERSATION_SESSION",
+        "etiqueta": "Conversation session"
+      },
+      {
+        "valor": "INCOMING_EMAIL",
+        "etiqueta": "Email reply from contact"
+      },
+      {
+        "valor": "EMAIL",
+        "etiqueta": "Email sent to contact"
+      },
+      {
+        "valor": "FORWARDED_EMAI",
+        "etiqueta": "Forwarded email"
+      },
+      {
+        "valor": "LINKEDIN_MESSAGE",
+        "etiqueta": "LinkedIn message"
+      },
+      {
+        "valor": "MEETING",
+        "etiqueta": "Meeting"
+      },
+      {
+        "valor": "NOTE",
+        "etiqueta": "Note"
+      },
+      {
+        "valor": "POSTAL_MAIL",
+        "etiqueta": "Postal mail"
+      },
+      {
+        "valor": "PUBLISHING_TASK",
+        "etiqueta": "Publishing task"
+      },
+      {
+        "valor": "SMS",
+        "etiqueta": "SMS"
+      },
+      {
+        "valor": "TASK",
+        "etiqueta": "Task"
+      },
+      {
+        "valor": "WHATS_APP",
+        "etiqueta": "WhatsApp"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_num_associated_active_deal_registrations",
+    "etiqueta": "Number of Active Deal Registrations",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The number of active deal registrations associated with this deal. This property is set automatically by HubSpot.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_num_associated_deal_registrations",
+    "etiqueta": "Number of Deal Registrations",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The number of deal registrations associated with this deal. This property is set automatically by HubSpot.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_num_associated_deal_splits",
+    "etiqueta": "Number of Deal Splits",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The number of deal splits associated with this deal. This property is set automatically by HubSpot.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_num_of_associated_line_items",
+    "etiqueta": "Number of Associated Line Items",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The number of line items associated with this deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_num_target_accounts",
+    "etiqueta": "Number of target accounts",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The number of target account companies associated with this deal. This property is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_number_of_call_engagements",
+    "etiqueta": "Number of call engagements",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The number of call engagements associated to the deal",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_number_of_inbound_calls",
+    "etiqueta": "Number of inbound calls",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The number of inbound calls associated to the deal",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_number_of_outbound_calls",
+    "etiqueta": "Number of outbound calls",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The number of outbound calls associated to the deal",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_number_of_overdue_tasks",
+    "etiqueta": "Number of overdue tasks",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The number of overdue tasks associated to the deal",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_number_of_scheduled_meetings",
+    "etiqueta": "Number of scheduled meetings",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The number of scheduled meetings associated to the deal",
+    "grupo": "predictive_deal_score_feature_properties",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_object_id",
+    "etiqueta": "Record ID",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_object_source",
+    "etiqueta": "Record creation source",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_object_source_detail_1",
+    "etiqueta": "Record source detail 1",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "First level of detail on how this record was created.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_object_source_detail_2",
+    "etiqueta": "Record source detail 2",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Second level of detail on how this record was created.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_object_source_detail_3",
+    "etiqueta": "Record source detail 3",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Third level of detail on how this record was created.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_object_source_id",
+    "etiqueta": "Record creation source ID",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_object_source_label",
+    "etiqueta": "Record source",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "How this record was created.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_object_source_user_id",
+    "etiqueta": "Record creation source user ID",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "Raw internal userId present in the RequestMeta when this record was created.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_open_amount_in_home_currency",
+    "etiqueta": "Open amount in home currency",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "The amount of the open deal, using the exchange rate, in your home currency",
+    "grupo": "hubspotmetrics",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_open_deal_create_date",
+    "etiqueta": "Open deal create date",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Create date populated only if this deal is open",
+    "grupo": "dealscripted",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_owning_teams",
+    "etiqueta": "Owning Teams",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The teams that are attributed to this record.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_partner_tech_win",
+    "etiqueta": "Partner Tech Win",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Tech Win field is used to identify where we are in achieving a technical win. Tech Win occurs when HubSpot technically fulfills the customer’s specific needs, marking a pivotal point in the sales process.Set to \"In Progress\" by Partner when joining the first disco call. Set to \"Yes\" by Partner when prospect verbally agrees that HS satisfies their technical/ business needs. Set to \"No\" by Partner when HS is not a fit based on customer feedback. How this property gets set: Manual Entry by Partner Consumer: SalesProperty Create Date: March 19, 2026",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "in_progress",
+        "etiqueta": "In Progress"
+      },
+      {
+        "valor": "Yes",
+        "etiqueta": "Yes"
+      },
+      {
+        "valor": "No",
+        "etiqueta": "No"
+      },
+      {
+        "valor": "Incomplete",
+        "etiqueta": "Incomplete"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_pinned_engagement_id",
+    "etiqueta": "Pinned Engagement ID",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The object ID of the current pinned engagement. This will only be shown if there is already an association to the engagement.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_predicted_amount",
+    "etiqueta": "The predicted deal amount",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Returns the multiplication of the deal amount times the predicted likelihood of the deal to close by the close date.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_predicted_amount_in_home_currency",
+    "etiqueta": "The predicted deal amount in your company's currency",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Returns the multiplication of the deal amount in your company's currency times the predicted likelihood of the deal to close by the close date.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_primary_associated_company",
+    "etiqueta": "Primary Associated Company",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "Object Id of the Primary Associated Company.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_primary_quote_data_updated_at",
+    "etiqueta": "Primary quote data updated at",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "Timestamp of when the deal's amount, line items, and global terms were updated from a newly created primary quote association.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_priority",
+    "etiqueta": "Priority",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The priority level of the deal",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "low",
+        "etiqueta": "Low"
+      },
+      {
+        "valor": "medium",
+        "etiqueta": "Medium"
+      },
+      {
+        "valor": "high",
+        "etiqueta": "High"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_projected_amount",
+    "etiqueta": "Weighted amount",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Returns the multiplication of the amount times the probability of the deal closing.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_projected_amount_in_home_currency",
+    "etiqueta": "Weighted amount in company currency",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "The deal’s amount in home currency multiplied by its probability of closing, which is determined based on the deal’s stage and the probability that was assigned to it in deal pipeline settings.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_read_only",
+    "etiqueta": "Read only object",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Determines whether a record can be edited by a user.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_sales_email_last_replied",
+    "etiqueta": "Recent Sales Email Replied Date",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The last time a tracked sales email was replied to for this deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_shared_team_ids",
+    "etiqueta": "Shared teams",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "Additional teams whose users can access the Deal based on their permissions. This can be set manually or through Workflows or APIs.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_shared_user_ids",
+    "etiqueta": "Shared users",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "Additional users that can access the Deal based on their permissions. This can be set manually or through Workflows and APIs.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_source_object_id",
+    "etiqueta": "Source Object ID",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The ID of the object from which the data was migrated. This is set automatically during portal data migration.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_submission_idempotent_id",
+    "etiqueta": "Submission Idempotent ID",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Submission Idempotent ID",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_support_workflows_april_2021",
+    "etiqueta": "HS Workflows Remediation April 2021",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "HubSpot Support property that stores workflows this record may have been enrolled in unexpectedly in April 2021",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_synced_deal_owner_name_and_email",
+    "etiqueta": "HubSpot Sales Lead",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "The HubSpot sales lead that owns this Shared Deal.",
+    "grupo": "deal_activity",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_tag_ids",
+    "etiqueta": "Deal Tags",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "List of tag ids applicable to a deal. This property is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_tcv",
+    "etiqueta": "Total contract value",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total contract value (TCV) of this deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_unique_creation_key",
+    "etiqueta": "Unique creation key",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Unique property used for idempotent creates",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_updated_by_user_id",
+    "etiqueta": "Updated by user ID",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_user_ids_of_all_notification_followers",
+    "etiqueta": "User IDs of all notification followers",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_user_ids_of_all_notification_recipients",
+    "etiqueta": "All deal notification recipients",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "All users who will receive notifications for this record — owners plus manual followers, minus manual unfollowers. Managed by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_user_ids_of_all_notification_unfollowers",
+    "etiqueta": "User IDs of all notification unfollowers",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_user_ids_of_all_owners",
+    "etiqueta": "User IDs of all owners",
+    "tipo": "enumeration",
+    "tipo_campo": "checkbox",
+    "descripcion": "The user IDs of all owners of this record.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_cumulative_time_in_23073047",
+    "etiqueta": "Cumulative time in \"Presentación agendada (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The cumulative time in seconds spent by the deal in the 'Presentación agendada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_cumulative_time_in_23073048",
+    "etiqueta": "Cumulative time in \"Cotización enviada (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The cumulative time in seconds spent by the deal in the 'Cotización enviada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_cumulative_time_in_23073049",
+    "etiqueta": "Cumulative time in \"Revisión de crédito (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The cumulative time in seconds spent by the deal in the 'Revisión de crédito' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_cumulative_time_in_23073050",
+    "etiqueta": "Cumulative time in \"Apartada (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The cumulative time in seconds spent by the deal in the 'Apartada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_cumulative_time_in_23073052",
+    "etiqueta": "Cumulative time in \"Contrato firmado (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The cumulative time in seconds spent by the deal in the 'Contrato firmado' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_cumulative_time_in_23100254",
+    "etiqueta": "Cumulative time in \"Cierre perdido (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The cumulative time in seconds spent by the deal in the 'Cierre perdido' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_cumulative_time_in_23919393",
+    "etiqueta": "Cumulative time in \"Escritura firmada (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The cumulative time in seconds spent by the deal in the 'Escritura firmada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_entered_23073047",
+    "etiqueta": "Date entered \"Presentación agendada (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal entered the 'Presentación agendada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_entered_23073048",
+    "etiqueta": "Date entered \"Cotización enviada (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal entered the 'Cotización enviada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_entered_23073049",
+    "etiqueta": "Date entered \"Revisión de crédito (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal entered the 'Revisión de crédito' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_entered_23073050",
+    "etiqueta": "Date entered \"Apartada (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal entered the 'Apartada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_entered_23073052",
+    "etiqueta": "Date entered \"Contrato firmado (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal entered the 'Contrato firmado' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_entered_23100254",
+    "etiqueta": "Date entered \"Cierre perdido (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal entered the 'Cierre perdido' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_entered_23919393",
+    "etiqueta": "Date entered \"Escritura firmada (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal entered the 'Escritura firmada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_entered_current_stage",
+    "etiqueta": "Date entered current stage",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "The date this object entered its current pipeline stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_exited_23073047",
+    "etiqueta": "Date exited \"Presentación agendada (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal exited the 'Presentación agendada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_exited_23073048",
+    "etiqueta": "Date exited \"Cotización enviada (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal exited the 'Cotización enviada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_exited_23073049",
+    "etiqueta": "Date exited \"Revisión de crédito (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal exited the 'Revisión de crédito' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_exited_23073050",
+    "etiqueta": "Date exited \"Apartada (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal exited the 'Apartada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_exited_23073052",
+    "etiqueta": "Date exited \"Contrato firmado (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal exited the 'Contrato firmado' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_exited_23100254",
+    "etiqueta": "Date exited \"Cierre perdido (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal exited the 'Cierre perdido' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_date_exited_23919393",
+    "etiqueta": "Date exited \"Escritura firmada (Pipeline unificado)\"",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date and time when the deal exited the 'Escritura firmada' stage, 'Pipeline unificado' pipeline",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_latest_time_in_23073047",
+    "etiqueta": "Latest time in \"Presentación agendada (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total time in seconds spent by the deal in the 'Presentación agendada' stage, 'Pipeline unificado' pipeline since it last entered this stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_latest_time_in_23073048",
+    "etiqueta": "Latest time in \"Cotización enviada (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total time in seconds spent by the deal in the 'Cotización enviada' stage, 'Pipeline unificado' pipeline since it last entered this stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_latest_time_in_23073049",
+    "etiqueta": "Latest time in \"Revisión de crédito (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total time in seconds spent by the deal in the 'Revisión de crédito' stage, 'Pipeline unificado' pipeline since it last entered this stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_latest_time_in_23073050",
+    "etiqueta": "Latest time in \"Apartada (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total time in seconds spent by the deal in the 'Apartada' stage, 'Pipeline unificado' pipeline since it last entered this stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_latest_time_in_23073052",
+    "etiqueta": "Latest time in \"Contrato firmado (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total time in seconds spent by the deal in the 'Contrato firmado' stage, 'Pipeline unificado' pipeline since it last entered this stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_latest_time_in_23100254",
+    "etiqueta": "Latest time in \"Cierre perdido (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total time in seconds spent by the deal in the 'Cierre perdido' stage, 'Pipeline unificado' pipeline since it last entered this stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_latest_time_in_23919393",
+    "etiqueta": "Latest time in \"Escritura firmada (Pipeline unificado)\"",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total time in seconds spent by the deal in the 'Escritura firmada' stage, 'Pipeline unificado' pipeline since it last entered this stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_v2_time_in_current_stage",
+    "etiqueta": "Time in current stage",
+    "tipo": "datetime",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "The time this object has spent in the current pipeline stage",
+    "grupo": "dealstages",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_was_imported",
+    "etiqueta": "Performed in an import",
+    "tipo": "bool",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Object is part of an import",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "True"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "False"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hs_weighted_pipeline_in_company_currency",
+    "etiqueta": "Weighted open pipeline in company currency",
+    "tipo": "number",
+    "tipo_campo": "calculation_equation",
+    "descripcion": "Sum in company currency of open deal amount, weighted by pipeline stage",
+    "grupo": "hubspotmetrics",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hubspot_owner_assigneddate",
+    "etiqueta": "Owner assigned date",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hubspot_owner_id",
+    "etiqueta": "Deal owner",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The owner of the deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "hubspot_team_id",
+    "etiqueta": "HubSpot Team",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The team of the owner of the deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "ingreso_de_cuenta",
+    "etiqueta": "Ingreso de cuenta",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "ingreso_efectivo",
+    "etiqueta": "Ingreso efectivo",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "inmobiliaria",
+    "etiqueta": "INMOBILIARIA",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad espejo para conocer la inmobiliaria que ingresó al contacto.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "360 MID",
+        "etiqueta": "360 MID"
+      },
+      {
+        "valor": "ACBER",
+        "etiqueta": "ACBER "
+      },
+      {
+        "valor": "ADDY MARRUFO BIENES RAICES",
+        "etiqueta": "ADDY MARRUFO BIENES RAICES "
+      },
+      {
+        "valor": "AGL REAL ESTATE",
+        "etiqueta": "AGL REAL ESTATE "
+      },
+      {
+        "valor": "AGORA",
+        "etiqueta": "AGORA"
+      },
+      {
+        "valor": "AKLE REALTY",
+        "etiqueta": "AKLE REALTY "
+      },
+      {
+        "valor": "ALEJANDRA SOSA",
+        "etiqueta": "ALEJANDRA SOSA"
+      },
+      {
+        "valor": "ALIADA INMOBILIARIA",
+        "etiqueta": "ALIADA INMOBILIARIA "
+      },
+      {
+        "valor": "ALVA INMOBILIARIA",
+        "etiqueta": "ALVA INMOBILIARIA"
+      },
+      {
+        "valor": "ALVAREZ MALO REAL STATE",
+        "etiqueta": "ALVAREZ MALO REAL STATE"
+      },
+      {
+        "valor": "AMMALUX",
+        "etiqueta": "AMMALUX"
+      },
+      {
+        "valor": "ANABEL MEDINA",
+        "etiqueta": "ANABEL MEDINA"
+      },
+      {
+        "valor": "ANCONY",
+        "etiqueta": "ANCONY"
+      },
+      {
+        "valor": "ANELY MAYER BIENES RAICES",
+        "etiqueta": "ANELY MAYER BIENES RAICES "
+      },
+      {
+        "valor": "AQUATERRA BIENES RAICES",
+        "etiqueta": "AQUATERRA BIENES RAICES"
+      },
+      {
+        "valor": "ASESORIA INMOBILIARIA SURESTE / Cristian Vallado",
+        "etiqueta": "ASESORIA INMOBILIARIA SURESTE / Cristian Vallado"
+      },
+      {
+        "valor": "ASHANTI CABALLERO",
+        "etiqueta": "ASHANTI CABALLERO"
+      },
+      {
+        "valor": "ASTRELA",
+        "etiqueta": "ASTRELA"
+      },
+      {
+        "valor": "AVANTI",
+        "etiqueta": "AVANTI"
+      },
+      {
+        "valor": "BABEL GROUP",
+        "etiqueta": "BABEL GROUP"
+      },
+      {
+        "valor": "BALAM GROUP",
+        "etiqueta": "BALAM GROUP"
+      },
+      {
+        "valor": "BARRERA Y BARRERA",
+        "etiqueta": "BARRERA Y BARRERA "
+      },
+      {
+        "valor": "BASE CÚBICA",
+        "etiqueta": "BASE CÚBICA"
+      },
+      {
+        "valor": "BCI",
+        "etiqueta": "BCI"
+      },
+      {
+        "valor": "BENJAMÍN ARELLANO BROKER",
+        "etiqueta": "BENJAMÍN ARELLANO BROKER"
+      },
+      {
+        "valor": "CINTHIA PÉREZ PINELO/GERARDO VÁZQUEZ",
+        "etiqueta": "BI.07 /GERARDO VÁZQUEZ"
+      },
+      {
+        "valor": "BI07 BIENES RAICES",
+        "etiqueta": "BI07 BIENES RAICES"
+      },
+      {
+        "valor": "BR YUCATAN BIENES RAICES",
+        "etiqueta": "BR YUCATAN BIENES RAICES "
+      },
+      {
+        "valor": "BRUNCH EMPRESARIAL",
+        "etiqueta": "BRUNCH EMPRESARIAL"
+      },
+      {
+        "valor": "BS MERIDA",
+        "etiqueta": "BS MERIDA"
+      },
+      {
+        "valor": "BUSCAHOGARES",
+        "etiqueta": "BUSCAHOGARES"
+      },
+      {
+        "valor": "CAPITAL INMOBILIARIA",
+        "etiqueta": "CAPITAL INMOBILIARIA"
+      },
+      {
+        "valor": "CARLA GIUSTINIANOVIC",
+        "etiqueta": "CARLA GIUSTINIANOVIC"
+      },
+      {
+        "valor": "CARLOS CASARES",
+        "etiqueta": "CARLOS CASARES"
+      },
+      {
+        "valor": "CARMINIA MEDINA",
+        "etiqueta": "CARMINIA MEDINA"
+      },
+      {
+        "valor": "CASAS Y TERRENOS MERIDA",
+        "etiqueta": "CASAS Y TERRENOS MERIDA"
+      },
+      {
+        "valor": "CENTURY 21",
+        "etiqueta": "CENTURY 21"
+      },
+      {
+        "valor": "CHICHÉN REALTY",
+        "etiqueta": "CHICHÉN REALTY"
+      },
+      {
+        "valor": "CINCO REAL ESTATE",
+        "etiqueta": "CINCO REAL ESTATE"
+      },
+      {
+        "valor": "CITY YUCATAN BROKERS",
+        "etiqueta": "CITY YUCATAN BROKERS"
+      },
+      {
+        "valor": "CLICK INMOBILIARIO",
+        "etiqueta": "CLICK INMOBILIARIO"
+      },
+      {
+        "valor": "COLDWEL BANKER",
+        "etiqueta": "COLDWEL BANKER"
+      },
+      {
+        "valor": "CONECTA BIENES RAICES",
+        "etiqueta": "CONECTA BIENES RAICES"
+      },
+      {
+        "valor": "CRISTINA MENDOZA ASESORA",
+        "etiqueta": "CRISTINA MENDOZA ASESORA"
+      },
+      {
+        "valor": "DAYDREAM REAL ESTATE",
+        "etiqueta": "DAYDREAM REAL ESTATE"
+      },
+      {
+        "valor": "DYM ASESORES INMOBILIARIOS",
+        "etiqueta": "DYM ASESORES INMOBILIARIOS"
+      },
+      {
+        "valor": "E.C. YUCATAN INMOBILIARIA",
+        "etiqueta": "E.C. YUCATAN INMOBILIARIA"
+      },
+      {
+        "valor": "EHOMES PROPIERTIES",
+        "etiqueta": "EHOMES PROPIERTIES"
+      },
+      {
+        "valor": "ELENA MARTINEZ BROKER",
+        "etiqueta": "ELENA MARTINEZ BROKER "
+      },
+      {
+        "valor": "ELSY CASTILLO",
+        "etiqueta": "ELSY CASTILLO"
+      },
+      {
+        "valor": "EMBASY BIENES RAICES",
+        "etiqueta": "EMBASSY BIENES RAICES"
+      },
+      {
+        "valor": "EMMANUEL ROCA",
+        "etiqueta": "EMMANUEL ROCA"
+      },
+      {
+        "valor": "ENRIQUE PAREDES BROKER",
+        "etiqueta": "ENRIQUE PAREDES BROKER "
+      },
+      {
+        "valor": "ERIK AVEDAÑO",
+        "etiqueta": "ERIK AVEDAÑO"
+      },
+      {
+        "valor": "ESPACIO 42",
+        "etiqueta": "ESPACIO 42"
+      },
+      {
+        "valor": "ESTAROS",
+        "etiqueta": "ESTAROS"
+      },
+      {
+        "valor": "ESTRUCTURA INMOBILIARIA",
+        "etiqueta": "ESTRUCTURA INMOBILIARIA "
+      },
+      {
+        "valor": "EUREKA",
+        "etiqueta": "EUREKA"
+      },
+      {
+        "valor": "EXPERTOS EN INVERSION INMOBILIARIA",
+        "etiqueta": "EXPERTOS EN INVERSION INMOBILIARIA"
+      },
+      {
+        "valor": "FABIAN VERA",
+        "etiqueta": "FABIAN VERA"
+      },
+      {
+        "valor": "FABIOLA ROCHA",
+        "etiqueta": "FABIOLA ROCHA"
+      },
+      {
+        "valor": "FERNANDO RDZ CAS",
+        "etiqueta": "FERNANDO RDZ CAS"
+      },
+      {
+        "valor": "FIBRE CAPITAL",
+        "etiqueta": "FIBRE CAPITAL"
+      },
+      {
+        "valor": "Francisco Pacheco Asesor Inmobiliario",
+        "etiqueta": "Francisco Pacheco Asesor Inmobiliario"
+      },
+      {
+        "valor": "FREDDY AZCORRA BROKER",
+        "etiqueta": "FREDDY AZCORRA BROKER "
+      },
+      {
+        "valor": "Fromskyrealtors",
+        "etiqueta": "Fromskyrealtors"
+      },
+      {
+        "valor": "GDM INMOBILIARIA",
+        "etiqueta": "GDM DESARROLLOS INMOBILIARIOS "
+      },
+      {
+        "valor": "GEORGINA CARDENAS RODRIGUEZ",
+        "etiqueta": "GEORGINA CARDENAS RODRIGUEZ"
+      },
+      {
+        "valor": "Onza",
+        "etiqueta": "Gestor Inmobiliario"
+      },
+      {
+        "valor": "GH MASTER BROKER",
+        "etiqueta": "GH MASTER BROKER"
+      },
+      {
+        "valor": "GLOBAL REALTY",
+        "etiqueta": "GLOBAL REALTY"
+      },
+      {
+        "valor": "GOLDEN ROOTS",
+        "etiqueta": "GOLDEN ROOTS"
+      },
+      {
+        "valor": "GRUPO 72",
+        "etiqueta": "GRUPO 72"
+      },
+      {
+        "valor": "GRUPO ABITARE",
+        "etiqueta": "GRUPO ABITARE "
+      },
+      {
+        "valor": "GRUPO ARBOR",
+        "etiqueta": "GRUPO ARBOR"
+      },
+      {
+        "valor": "GRUPO GMC",
+        "etiqueta": "GRUPO GMC"
+      },
+      {
+        "valor": "GRUPO INMOBILIARIO TOSC",
+        "etiqueta": "GRUPO INMOBILIARIO TOSC"
+      },
+      {
+        "valor": "GRUPO LOGRE",
+        "etiqueta": "GRUPO LOGRE "
+      },
+      {
+        "valor": "GRUPO ORBA",
+        "etiqueta": "GRUPO ORBA"
+      },
+      {
+        "valor": "GRUPO TOTAL",
+        "etiqueta": "GRUPO TOTAL"
+      },
+      {
+        "valor": "GRUPO VSC",
+        "etiqueta": "GRUPO VSC"
+      },
+      {
+        "valor": "Guillermo Treviño",
+        "etiqueta": "Guillermo Treviño"
+      },
+      {
+        "valor": "GUIVA INMOBILIARIA",
+        "etiqueta": "GUIVA INMOBILIARIA "
+      },
+      {
+        "valor": "HEY DANY",
+        "etiqueta": "HEY DANY "
+      },
+      {
+        "valor": "HOGARES DEL MAYAB",
+        "etiqueta": "HOGARES DEL MAYAB"
+      },
+      {
+        "valor": "HOMARS",
+        "etiqueta": "HOMARS"
+      },
+      {
+        "valor": "HOME & INVESTMENTS",
+        "etiqueta": "HOME & INVESTMENTS"
+      },
+      {
+        "valor": "Home & Land Peninsula",
+        "etiqueta": "Home & Land Peninsula"
+      },
+      {
+        "valor": "Homeland",
+        "etiqueta": "Homeland"
+      },
+      {
+        "valor": "HORIZONTE INMOBILIARIO",
+        "etiqueta": "HORIZONTE INMOBILIARIO"
+      },
+      {
+        "valor": "IBE MEXICO",
+        "etiqueta": "IBE MEXICO"
+      },
+      {
+        "valor": "IG CAPITAL / ISABEL HERNANDEZ",
+        "etiqueta": "IG CAPITAL / ISABEL HERNANDEZ "
+      },
+      {
+        "valor": "Ile Yucatán Bienes Raíces",
+        "etiqueta": "Ile Yucatán Bienes Raíces"
+      },
+      {
+        "valor": "ILEIN BOLAÑOS BROKER",
+        "etiqueta": "ILEIN BOLAÑOS BROKER "
+      },
+      {
+        "valor": "IMPACTO INMOBILIARIO",
+        "etiqueta": "IMPACTO INMOBILIARIO"
+      },
+      {
+        "valor": "IMPEREAL ESTATE",
+        "etiqueta": "IMPEREAL ESTATE"
+      },
+      {
+        "valor": "INMOBALSA INMOBILIARIA",
+        "etiqueta": "INMOBALSA INMOBILIARIA"
+      },
+      {
+        "valor": "INMOBE",
+        "etiqueta": "INMOBE"
+      },
+      {
+        "valor": "INMOBILIARIA AMBIENTES",
+        "etiqueta": "INMOBILIARIA AMBIENTES"
+      },
+      {
+        "valor": "INMOBILIARIA DE CASAS MERIDA GR",
+        "etiqueta": "INMOBILIARIA DE CASAS MERIDA GR "
+      },
+      {
+        "valor": "INMOBILIARIA KAZSTE",
+        "etiqueta": "INMOBILIARIA KAZSTE"
+      },
+      {
+        "valor": "INMOBILIARIA MAYAB",
+        "etiqueta": "INMOBILIARIA MAYAB  / INMOBILIARA DEL SURESTE INTRES "
+      },
+      {
+        "valor": "INMUEBLES HOGAR.COM",
+        "etiqueta": "INMUEBLES HOGAR.COM"
+      },
+      {
+        "valor": "INMUEBLESHOGAR.COM",
+        "etiqueta": "INMUEBLESHOGAR.COM"
+      },
+      {
+        "valor": "INTERHOUSE",
+        "etiqueta": "INTERHOUSE"
+      },
+      {
+        "valor": "INTERMEDIAL",
+        "etiqueta": "INTERMEDIAL"
+      },
+      {
+        "valor": "INTERVALO BIENES RAICES",
+        "etiqueta": "INTERVALO BIENES RAICES "
+      },
+      {
+        "valor": "INTOWN KARLA MEJIA",
+        "etiqueta": "INTOWN KARLA MEJIA "
+      },
+      {
+        "valor": "INTRES",
+        "etiqueta": "INTRES "
+      },
+      {
+        "valor": "INVERSA INMOBILIARIA",
+        "etiqueta": "INVERSA INMOBILIARIA "
+      },
+      {
+        "valor": "Isabel Young",
+        "etiqueta": "Isabel Young"
+      },
+      {
+        "valor": "JERRY MEDINA",
+        "etiqueta": "JERRY MEDINA"
+      },
+      {
+        "valor": "JOSELIN QUIROZ",
+        "etiqueta": "JOSELIN QUIROZ "
+      },
+      {
+        "valor": "JPE INMOBILIARIA",
+        "etiqueta": "JPE INMOBILIARIA"
+      },
+      {
+        "valor": "Julio Reyes",
+        "etiqueta": "Julio Reyes"
+      },
+      {
+        "valor": "KABAL INMOBILIARIA",
+        "etiqueta": "KABAL INMOBILIARIA "
+      },
+      {
+        "valor": "KARMA",
+        "etiqueta": "KARMA "
+      },
+      {
+        "valor": "KINNUK",
+        "etiqueta": "KINNUK"
+      },
+      {
+        "valor": "KUALI BIENES RAICES",
+        "etiqueta": "KUALI BIENES RAICES "
+      },
+      {
+        "valor": "KW PENINSULA",
+        "etiqueta": "KW PENINSULA"
+      },
+      {
+        "valor": "LARA BIENES RAICES",
+        "etiqueta": "LARA BIENES RAICES "
+      },
+      {
+        "valor": "LATITUD INMOBILIARIA",
+        "etiqueta": "LATITUD INMOBILIARIA"
+      },
+      {
+        "valor": "LATITUD Y LONGITUD INMOBILIARIA",
+        "etiqueta": "LATITUD Y LONGITUD INMOBILIARIA "
+      },
+      {
+        "valor": "LEGIONA",
+        "etiqueta": "LEGIONA"
+      },
+      {
+        "valor": "LID YUCATAN",
+        "etiqueta": "LID YUCATAN"
+      },
+      {
+        "valor": "LINDER",
+        "etiqueta": "LINDER"
+      },
+      {
+        "valor": "LIVING YUCATAN",
+        "etiqueta": "LIVING YUCATAN"
+      },
+      {
+        "valor": "LLAVE EN MANO",
+        "etiqueta": "LLAVE EN MANO "
+      },
+      {
+        "valor": "LoBaq Realty",
+        "etiqueta": "LoBaq Realty"
+      },
+      {
+        "valor": "LOGISTICA INMOBILIARIA",
+        "etiqueta": "LOGISTICA INMOBILIARIA"
+      },
+      {
+        "valor": "LUNA VISTA BIENES RAICES",
+        "etiqueta": "LUNA VISTA BIENES RAICES"
+      },
+      {
+        "valor": "m2 para negocios",
+        "etiqueta": "m2 para negocios"
+      },
+      {
+        "valor": "M3 INMOBILIARIA",
+        "etiqueta": "M3 INMOBILIARIA"
+      },
+      {
+        "valor": "MARISSA RICALDE ASESORA",
+        "etiqueta": "MARISSA RICALDE ASESORA"
+      },
+      {
+        "valor": "MARY TONY GASQUE",
+        "etiqueta": "MARY TONY GASQUE"
+      },
+      {
+        "valor": "MASTER BROKER MEXICO INMOBILIARIA",
+        "etiqueta": "MASTER BROKER MEXICO INMOBILIARIA"
+      },
+      {
+        "valor": "MAYA REAL",
+        "etiqueta": "MAYA REAL"
+      },
+      {
+        "valor": "MAYAKIN",
+        "etiqueta": "MAYAKIN"
+      },
+      {
+        "valor": "MAYAN HOME PROPERTY",
+        "etiqueta": "MAYAN HOME PROPERTY "
+      },
+      {
+        "valor": "MBM",
+        "etiqueta": "MBM MASTER BROKER"
+      },
+      {
+        "valor": "MBP INMOBILIARIA",
+        "etiqueta": "MBP INMOBILIARIA "
+      },
+      {
+        "valor": "MELDGROUP",
+        "etiqueta": "MELDGROUP"
+      },
+      {
+        "valor": "MENTOR REAL ESTATE",
+        "etiqueta": "MENTOR REAL ESTATE"
+      },
+      {
+        "valor": "MERIDA INCREIBLE",
+        "etiqueta": "MERIDA INCREIBLE "
+      },
+      {
+        "valor": "MERIDA INMOBILIARIA",
+        "etiqueta": "MERIDA INMOBILIARIA"
+      },
+      {
+        "valor": "MERIDA REALTOR",
+        "etiqueta": "MERIDA REALTOR"
+      },
+      {
+        "valor": "MERIDA VIVA",
+        "etiqueta": "MERIDA VIVA"
+      },
+      {
+        "valor": "MEXIBROKER",
+        "etiqueta": "MEXIBROKER"
+      },
+      {
+        "valor": "MID CONNECT",
+        "etiqueta": "MID CONNECT"
+      },
+      {
+        "valor": "MONICA MILLET",
+        "etiqueta": "MONICA MILLET"
+      },
+      {
+        "valor": "MUDARSEAMERIDA.COM",
+        "etiqueta": "MUDARSEAMERIDA.COM"
+      },
+      {
+        "valor": "MUVIN",
+        "etiqueta": "MUVIN"
+      },
+      {
+        "valor": "NAVARRETE INMOBILIARIA",
+        "etiqueta": "NAVARRETE INMOBILIARIA"
+      },
+      {
+        "valor": "NEXIMO",
+        "etiqueta": "NEXIMO"
+      },
+      {
+        "valor": "NICE HOME",
+        "etiqueta": "NICE HOME"
+      },
+      {
+        "valor": "NISA BIENES RAICES",
+        "etiqueta": "NISA BIENES RAICES"
+      },
+      {
+        "valor": "NORA LARA",
+        "etiqueta": "NORA LARA"
+      },
+      {
+        "valor": "OHMYODI",
+        "etiqueta": "OHMYODI "
+      },
+      {
+        "valor": "ONIX",
+        "etiqueta": "ONIX "
+      },
+      {
+        "valor": "ONYX",
+        "etiqueta": "ONYX"
+      },
+      {
+        "valor": "ONZA INMOBILIARIA",
+        "etiqueta": "ONZA INMOBILIARIA"
+      },
+      {
+        "valor": "Orema Desarrollos",
+        "etiqueta": "Orema Desarrollos "
+      },
+      {
+        "valor": "OREMA RUBY",
+        "etiqueta": "OREMA RUBY "
+      },
+      {
+        "valor": "ORTEN",
+        "etiqueta": "ORTEN "
+      },
+      {
+        "valor": "PAWAHTÚN INMOBILIARIA",
+        "etiqueta": "PAWAHTÚN INMOBILIARIA"
+      },
+      {
+        "valor": "PERSONAL BROKERS",
+        "etiqueta": "PERSONAL BROKERS"
+      },
+      {
+        "valor": "PLATAFORMA YUCATAN BIENES RAICES",
+        "etiqueta": "PLATAFORMA YUCATAN BIENES RAICES"
+      },
+      {
+        "valor": "PRIVIUM",
+        "etiqueta": "PRIVIUM"
+      },
+      {
+        "valor": "PROMOTORA MAYA BM",
+        "etiqueta": "PROMOTORA MAYA BM"
+      },
+      {
+        "valor": "PROPIEDADES BOUTIQUE",
+        "etiqueta": "PROPIEDADES BOUTIQUE"
+      },
+      {
+        "valor": "PROPIEDADES POR INTERNET",
+        "etiqueta": "PROPIEDADES POR INTERNET"
+      },
+      {
+        "valor": "PUERTA AMARILLA",
+        "etiqueta": "PUERTA AMARILLA"
+      },
+      {
+        "valor": "PUNTO ORIGEN",
+        "etiqueta": "PUNTO ORIGEN "
+      },
+      {
+        "valor": "QUALITY PENINSULA",
+        "etiqueta": "QUALITY PENINSULA"
+      },
+      {
+        "valor": "QUERIDO YUCATATN",
+        "etiqueta": "QUERIDO YUCATAN"
+      },
+      {
+        "valor": "RAICES YUCATAN",
+        "etiqueta": "RAICES YUCATAN"
+      },
+      {
+        "valor": "REALEZ BIENES RAICES",
+        "etiqueta": "REALEZ BIENES RAICES "
+      },
+      {
+        "valor": "REALTY GLOBAL",
+        "etiqueta": "REALTY GLOBAL"
+      },
+      {
+        "valor": "REALTY SUR",
+        "etiqueta": "REALTY SUR"
+      },
+      {
+        "valor": "RED HOME REALTY",
+        "etiqueta": "RED HOME REALTY"
+      },
+      {
+        "valor": "REGINA HERRERA",
+        "etiqueta": "REGINA HERRERA"
+      },
+      {
+        "valor": "RESIDENCIALES MERIDA",
+        "etiqueta": "RESIDENCIALES MERIDA "
+      },
+      {
+        "valor": "Reynolds",
+        "etiqueta": "Reynolds"
+      },
+      {
+        "valor": "RICASSA INMOBILIARIA",
+        "etiqueta": "RICASSA INMOBILIARIA"
+      },
+      {
+        "valor": "RIGAMA INMOBILIARIA",
+        "etiqueta": "RIGAMA INMOBILIARIA"
+      },
+      {
+        "valor": "Roard Inmobiliaria",
+        "etiqueta": "Roard Inmobiliaria"
+      },
+      {
+        "valor": "ROBERTO MEZA",
+        "etiqueta": "ROBERTO MEZA "
+      },
+      {
+        "valor": "ROCA INMOBILIARIA",
+        "etiqueta": "ROCA INMOBILIARIA "
+      },
+      {
+        "valor": "ROYAL HOME",
+        "etiqueta": "ROYAL HOME"
+      },
+      {
+        "valor": "RUIXTO",
+        "etiqueta": "RUIXTO"
+      },
+      {
+        "valor": "RUIZ AQUINO REAL ESTATE",
+        "etiqueta": "RUIZ AQUINO REAL ESTATE "
+      },
+      {
+        "valor": "S&R SERVICIOS INMOBILIARIOS",
+        "etiqueta": "S&R SERVICIOS INMOBILIARIOS"
+      },
+      {
+        "valor": "SELVA & CO REALTY",
+        "etiqueta": "SELVA & CO REALTY"
+      },
+      {
+        "valor": "SENDA BIENES RAICES",
+        "etiqueta": "SENDA BIENES RAICES"
+      },
+      {
+        "valor": "SHARON TOIBER",
+        "etiqueta": "SHARON TOIBER"
+      },
+      {
+        "valor": "SILVIA FLORES ASESOR INMOBILIARIO",
+        "etiqueta": "SILVIA FLORES ASESOR INMOBILIARIO"
+      },
+      {
+        "valor": "SIMPLEMENTE MERIDA",
+        "etiqueta": "SIMPLEMENTE MERIDA"
+      },
+      {
+        "valor": "SL BIENES RAICES",
+        "etiqueta": "SL BIENES RAICES"
+      },
+      {
+        "valor": "SONI REAL ESTATE BY OREKA GROUP",
+        "etiqueta": "SONI REAL ESTATE BY OREKA GROUP"
+      },
+      {
+        "valor": "SQUARE CAPITAL",
+        "etiqueta": "SQUARE CAPITAL"
+      },
+      {
+        "valor": "SUBA BIENES RAICES",
+        "etiqueta": "SUBA BIENES RAICES "
+      },
+      {
+        "valor": "SUPER HOST MERIDA",
+        "etiqueta": "SUPER HOST MERIDA"
+      },
+      {
+        "valor": "TANGENTE PROPERTIES",
+        "etiqueta": "TANGENTE PROPERTIES"
+      },
+      {
+        "valor": "TARGET INMOBILIARIA",
+        "etiqueta": "TARGET INMOBILIARIA"
+      },
+      {
+        "valor": "TECNOPROYECTOS GRUPO INMOBILIARIO",
+        "etiqueta": "TECNOPROYECTOS GRUPO INMOBILIARIO"
+      },
+      {
+        "valor": "TERRA YUCATAN",
+        "etiqueta": "TERRA YUCATAN"
+      },
+      {
+        "valor": "TIERRA FORTUNA BIENES RAICES",
+        "etiqueta": "TIERRA FORTUNA BIENES RAICES"
+      },
+      {
+        "valor": "TIERRA TESORO",
+        "etiqueta": "TIERRA TESORO"
+      },
+      {
+        "valor": "TIERRAS DEL MAYAB",
+        "etiqueta": "TIERRAS DEL MAYAB"
+      },
+      {
+        "valor": "TIPI BIENES RAICES",
+        "etiqueta": "TIPI BIENES RAICES"
+      },
+      {
+        "valor": "TM INMOBILIARIA",
+        "etiqueta": "TM INMOBILIARIA"
+      },
+      {
+        "valor": "TOP HOMES MX",
+        "etiqueta": "TOP HOMES MX"
+      },
+      {
+        "valor": "TOSC INMOBILIARIA",
+        "etiqueta": "TOSC INMOBILIARIA "
+      },
+      {
+        "valor": "TRANO INMOBILIARIA",
+        "etiqueta": "TRANO INMOBILIARIA"
+      },
+      {
+        "valor": "TRES65 INMOBILIARIA",
+        "etiqueta": "TRES65 INMOBILIARIA"
+      },
+      {
+        "valor": "TRISQUEL INMOBILIARIA",
+        "etiqueta": "TRISQUEL INMOBILIARIA"
+      },
+      {
+        "valor": "TULUA GRUPO INMOBILIARIO",
+        "etiqueta": "TULUA GRUPO INMOBILIARIO"
+      },
+      {
+        "valor": "TULUMFROMSKY",
+        "etiqueta": "TULUMFROMSKY"
+      },
+      {
+        "valor": "TURO INMOBILIARIA",
+        "etiqueta": "TURO INMOBILIARIA"
+      },
+      {
+        "valor": "URBANOVA",
+        "etiqueta": "URBANOVA"
+      },
+      {
+        "valor": "VERA INMOBILIARIA",
+        "etiqueta": "VERA INMOBILIARIA "
+      },
+      {
+        "valor": "VERDE INVERSIÓN INMOBILIARIA",
+        "etiqueta": "VERDE INVERSIÓN INMOBILIARIA"
+      },
+      {
+        "valor": "WENDOLINE MARRUFO ASESORA",
+        "etiqueta": "WENDOLINE MARRUFO ASESORA"
+      },
+      {
+        "valor": "WHITE HOUSE MID",
+        "etiqueta": "WHITE HOUSE MID"
+      },
+      {
+        "valor": "Y2BUY PROPIERTIES",
+        "etiqueta": "Y2BUY PROPIERTIES"
+      },
+      {
+        "valor": "YOLANDA MONROY",
+        "etiqueta": "YOLANDA MONROY"
+      },
+      {
+        "valor": "YUCASITAS",
+        "etiqueta": "YUCASITAS"
+      },
+      {
+        "valor": "YUCATAN CITY",
+        "etiqueta": "YUCATAN CITY"
+      },
+      {
+        "valor": "YUCATAN PROPERTIES",
+        "etiqueta": "YUCATAN PROPERTIES"
+      },
+      {
+        "valor": "YUCATÁN PREMIER",
+        "etiqueta": "YUCATÁN PREMIER"
+      },
+      {
+        "valor": "YUMMA INMOBILIARIA",
+        "etiqueta": "YUMMA INMOBILIARIA "
+      },
+      {
+        "valor": "ZONA PENÍNSULA INMOBILIARIA",
+        "etiqueta": "ZONA PENÍNSULA INMOBILIARIA"
+      },
+      {
+        "valor": "INMUEBLE 27",
+        "etiqueta": "INMUEBLE 27"
+      },
+      {
+        "valor": "CYMA Real Estate",
+        "etiqueta": "CYMA Real Estate"
+      },
+      {
+        "valor": "ERIKA LARA",
+        "etiqueta": "ERIKA LARA"
+      },
+      {
+        "valor": "ELVIR VILLARON MI CASA EN YUCATÁN",
+        "etiqueta": "ELVIR VILLARON MI CASA EN YUCATÁN"
+      },
+      {
+        "valor": "YUCATAN REALTOR",
+        "etiqueta": "YUCATAN REALTOR"
+      },
+      {
+        "valor": "ALIARA",
+        "etiqueta": "ALIARA"
+      },
+      {
+        "valor": "Priscila Sanvicente",
+        "etiqueta": "Priscila Sanvicente"
+      },
+      {
+        "valor": "ZONA 20",
+        "etiqueta": "ZONA 20"
+      },
+      {
+        "valor": "ALMAYA DESARROLLOS",
+        "etiqueta": "ALMAYA DESARROLLOS"
+      },
+      {
+        "valor": "U-CAPITAL",
+        "etiqueta": "U-CAPITAL"
+      },
+      {
+        "valor": "INMOERA",
+        "etiqueta": "INMOERA"
+      },
+      {
+        "valor": "KAVANA MASTERBROKER",
+        "etiqueta": "KAVANA MASTERBROKER"
+      },
+      {
+        "valor": "JAZMIN MARCIAL",
+        "etiqueta": "JAZMIN MARCIAL"
+      },
+      {
+        "valor": "CASER INMOBILIARIA",
+        "etiqueta": "CASER INMOBILIARIA"
+      },
+      {
+        "valor": "INDIGO",
+        "etiqueta": "INDIGO"
+      },
+      {
+        "valor": "KRAKEN INMOBILIARIA",
+        "etiqueta": "KRAKEN INMOBILIARIA"
+      },
+      {
+        "valor": "FABIOLA MARTINEZ CAMPOS",
+        "etiqueta": "FABIOLA MARTINEZ CAMPOS"
+      },
+      {
+        "valor": "RAKE INMOBILIARIA",
+        "etiqueta": "RAKE INMOBILIARIA"
+      },
+      {
+        "valor": "BM REAL ESTATE",
+        "etiqueta": "BM REAL ESTATE"
+      },
+      {
+        "valor": "MORANTES INMOBILIARIA",
+        "etiqueta": "MORANTES INMOBILIARIA"
+      },
+      {
+        "valor": "MIDTOWN REALTY",
+        "etiqueta": "MIDTOWN REALTY"
+      },
+      {
+        "valor": "BI07 bienes raíces",
+        "etiqueta": "BI07 bienes raíces"
+      },
+      {
+        "valor": "ALBA ROSADO BK",
+        "etiqueta": "ALBA ROSADO BK"
+      },
+      {
+        "valor": "NALA GRUPO CONTRUCTORA",
+        "etiqueta": "NALA GRUPO CONTRUCTORA"
+      },
+      {
+        "valor": "KATTY ROSADO BK",
+        "etiqueta": "KATTY ROSADO BK"
+      },
+      {
+        "valor": "WELFARE REAL ESTATE",
+        "etiqueta": "WELFARE REAL ESTATE"
+      },
+      {
+        "valor": "AYESHA MELGOZA BK",
+        "etiqueta": "AYESHA MELGOZA BK"
+      },
+      {
+        "valor": "JESSICA DE LA CRUZ BK",
+        "etiqueta": "JESSICA DE LA CRUZ BK"
+      },
+      {
+        "valor": "CHENGE GRUPO INMOBILIARIO",
+        "etiqueta": "CHENGE GRUPO INMOBILIARIO"
+      },
+      {
+        "valor": "NORMA GUTIERREZ BK",
+        "etiqueta": "NORMA GUTIERREZ BK"
+      },
+      {
+        "valor": "VICTOR VILLANUEVA BK",
+        "etiqueta": "VICTOR VILLANUEVA BK"
+      },
+      {
+        "valor": "PIEDRA BLANCA REAL ESTATE",
+        "etiqueta": "PIEDRA BLANCA REAL ESTATE"
+      },
+      {
+        "valor": "TIERRA PROMETIDA INMOBILIARIA",
+        "etiqueta": "TIERRA PROMETIDA INMOBILIARIA"
+      },
+      {
+        "valor": "DVELOPERS",
+        "etiqueta": "DVELOPERS"
+      },
+      {
+        "valor": "DOS CASAS BIENES RAÍCES",
+        "etiqueta": "DOS CASAS BIENES RAÍCES"
+      },
+      {
+        "valor": "ABITAH INMOBILIARIA",
+        "etiqueta": "ABITAH INMOBILIARIA"
+      },
+      {
+        "valor": "INMUEBLES AKNA",
+        "etiqueta": "INMUEBLES AKNA"
+      },
+      {
+        "valor": "GABRIELA LARA BK",
+        "etiqueta": "GABRIELA LARA BK"
+      },
+      {
+        "valor": "ANA VERA BK",
+        "etiqueta": "ANA VERA BK"
+      },
+      {
+        "valor": "GRUPO NURA",
+        "etiqueta": "GRUPO NURA"
+      },
+      {
+        "valor": "HABITA MID INMOBILIARIA",
+        "etiqueta": "HABITA MID INMOBILIARIA"
+      },
+      {
+        "valor": "CASA INMOBILIARIA",
+        "etiqueta": "CASA INMOBILIARIA"
+      },
+      {
+        "valor": "NET REAL ESTATE",
+        "etiqueta": "NET REAL ESTATE"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "jobtitle",
+    "etiqueta": "Puesto",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "llenar_checklist_y_enviar",
+    "etiqueta": "Llenar checklist y enviar",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Si",
+        "etiqueta": "Si"
+      },
+      {
+        "valor": "No",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "lote_apartado",
+    "etiqueta": "Lote apartado",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad creada para incluir en el nuevo proceso comercial en la etapa Apartada del pipeline de negocio.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "metodo_de_pago",
+    "etiqueta": "Método de pago",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Préstamo hipotecario",
+        "etiqueta": "Préstamo hipotecario"
+      },
+      {
+        "valor": "Préstamo hipotecario externo",
+        "etiqueta": "Préstamo hipotecario externo"
+      },
+      {
+        "valor": "De contado",
+        "etiqueta": "De contado"
+      },
+      {
+        "valor": "Credito Infonavit, Fovissste",
+        "etiqueta": "Credito Infonavit, Fovissste"
+      },
+      {
+        "valor": "COFINAVIT",
+        "etiqueta": "COFINAVIT"
+      },
+      {
+        "valor": "PEMEX",
+        "etiqueta": "PEMEX"
+      },
+      {
+        "valor": "BANJERCITO",
+        "etiqueta": "BANJERCITO"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "mobilephone",
+    "etiqueta": "Número de teléfono móvil",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "modelo_casa_negocio",
+    "etiqueta": "Modelo de casa",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad creada para incluir en el nuevo pipeline de ventas, a partir de una propiedad de Contacto que tiene el mismo nombre.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Macora 86 - A",
+        "etiqueta": "Macora 86 - A"
+      },
+      {
+        "valor": "Macora 86 - B",
+        "etiqueta": "Macora 86 - B"
+      },
+      {
+        "valor": "Macora 86 - C",
+        "etiqueta": "Macora 86 - C"
+      },
+      {
+        "valor": "Macora 86 - D",
+        "etiqueta": "Macora 86 - D"
+      },
+      {
+        "valor": "Macora 86 - E",
+        "etiqueta": "Macora 86 - E"
+      },
+      {
+        "valor": "Macora 86 - S",
+        "etiqueta": "Macora 86 - S"
+      },
+      {
+        "valor": "Madero 54 - Arce",
+        "etiqueta": "Madero 54 - Arce"
+      },
+      {
+        "valor": "Madero 54 - Balau",
+        "etiqueta": "Madero 54 - Balau"
+      },
+      {
+        "valor": "Madero 54 - Cerezo",
+        "etiqueta": "Madero 54 - Cerezo"
+      },
+      {
+        "valor": "Palta 152 - A",
+        "etiqueta": "Palta 152 - A"
+      },
+      {
+        "valor": "Palta 152 - B",
+        "etiqueta": "Palta 152 - B"
+      },
+      {
+        "valor": "Palta 152 - C",
+        "etiqueta": "Palta 152 - C"
+      },
+      {
+        "valor": "Palta 152 - D",
+        "etiqueta": "Palta 152 - D"
+      },
+      {
+        "valor": "Palta 152 - E",
+        "etiqueta": "Palta 152 - E"
+      },
+      {
+        "valor": "Palta 152 - F",
+        "etiqueta": "Palta 152 - F"
+      },
+      {
+        "valor": "Palta 152 - Loft",
+        "etiqueta": "Palta 152 - Loft"
+      },
+      {
+        "valor": "Palta 152 - Loft 2",
+        "etiqueta": "Palta 152 - Loft 2"
+      },
+      {
+        "valor": "Zensia - A",
+        "etiqueta": "Zensia - A"
+      },
+      {
+        "valor": "Zensia - B",
+        "etiqueta": "Zensia - B"
+      },
+      {
+        "valor": "Zensia - C",
+        "etiqueta": "Zensia - C"
+      },
+      {
+        "valor": "Zensia - D",
+        "etiqueta": "Zensia - D"
+      },
+      {
+        "valor": "Zensia - D+",
+        "etiqueta": "Zensia - D+"
+      },
+      {
+        "valor": "Zensia - E",
+        "etiqueta": "Zensia - E"
+      },
+      {
+        "valor": "Zensia - F",
+        "etiqueta": "Zensia - F"
+      },
+      {
+        "valor": "Zensia - H",
+        "etiqueta": "Zensia - H"
+      },
+      {
+        "valor": "Zensia - I",
+        "etiqueta": "Zensia - I"
+      },
+      {
+        "valor": "Zensia - J",
+        "etiqueta": "Zensia - J"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "modelos",
+    "etiqueta": "Modelos ",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Arce",
+        "etiqueta": "Arce"
+      },
+      {
+        "valor": "Balau",
+        "etiqueta": "Balau"
+      },
+      {
+        "valor": "Modelo Loft",
+        "etiqueta": "Modelo Loft"
+      },
+      {
+        "valor": "Modelo A",
+        "etiqueta": "Modelo A"
+      },
+      {
+        "valor": "Modelo B",
+        "etiqueta": "Modelo B"
+      },
+      {
+        "valor": "Modelo C",
+        "etiqueta": "Modelo C"
+      },
+      {
+        "valor": "Modelo D",
+        "etiqueta": "Modelo D"
+      },
+      {
+        "valor": "Modelo E",
+        "etiqueta": "Modelo E"
+      },
+      {
+        "valor": "Modelo F",
+        "etiqueta": "Modelo F"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "motivo_de_descartado",
+    "etiqueta": "Motivo de DESCARTADO",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Presupuesto diferente o insuficiente",
+        "etiqueta": "Referido para M54"
+      },
+      {
+        "valor": "Producto diferente",
+        "etiqueta": "Referido para M86"
+      },
+      {
+        "valor": "Diferentes características",
+        "etiqueta": "Referido para P152"
+      },
+      {
+        "valor": "Referido para Zensia",
+        "etiqueta": "Referido para Zensia"
+      },
+      {
+        "valor": "Referido para Buenas Raices",
+        "etiqueta": "Referido para Buenas Raices"
+      },
+      {
+        "valor": "Referido para Grupo Casitas",
+        "etiqueta": "Referido para Grupo Casitas"
+      },
+      {
+        "valor": "Compraron en otro lugar",
+        "etiqueta": "Compraron en otro lugar"
+      },
+      {
+        "valor": "Entraron por curiosidad",
+        "etiqueta": "Entraron por curiosidad"
+      },
+      {
+        "valor": "Dejaron de contestar",
+        "etiqueta": "Dejaron de contestar"
+      },
+      {
+        "valor": "",
+        "etiqueta": ""
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "motivo_de_descarte",
+    "etiqueta": "Motivo de descarte",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "No cumple con el área que desea",
+        "etiqueta": "No cumple con los m2 que desea"
+      },
+      {
+        "valor": "Está fuera de su presupuesto",
+        "etiqueta": "Está fuera de su presupuesto"
+      },
+      {
+        "valor": "Busca precios de preventa",
+        "etiqueta": "Busca precios de preventa"
+      },
+      {
+        "valor": "Prefiere otra ubicación",
+        "etiqueta": "Prefiere otra zona de la ciudad"
+      },
+      {
+        "valor": "Ya compró",
+        "etiqueta": "Ya compró"
+      },
+      {
+        "valor": "Imprevisto personal",
+        "etiqueta": "Imprevisto personal"
+      },
+      {
+        "valor": "No es el usuario final",
+        "etiqueta": "No es el usuario final"
+      },
+      {
+        "valor": "Busca una casa lista para entrega",
+        "etiqueta": "Busca una casa lista para entrega"
+      },
+      {
+        "valor": "Espera la casa muestra",
+        "etiqueta": "Espera la casa de muestra"
+      },
+      {
+        "valor": "El desarrollo no cumple con sus expectativas",
+        "etiqueta": "El desarrollo no cumple con sus expectativas"
+      },
+      {
+        "valor": "Credito no autorizado",
+        "etiqueta": "Credito no autorizado"
+      },
+      {
+        "valor": "No pudo resolver el método de pago",
+        "etiqueta": "No pudo resolver el método de pago"
+      },
+      {
+        "valor": "No mostro interes en asistir a la cita",
+        "etiqueta": "No mostró interés en asistir a la cita"
+      },
+      {
+        "valor": "Referido a otro asesor",
+        "etiqueta": "Referido a otro asesor"
+      },
+      {
+        "valor": "No contesta",
+        "etiqueta": "Dejó de contestar"
+      },
+      {
+        "valor": "Otro",
+        "etiqueta": "Otro"
+      },
+      {
+        "valor": "Descartados pipeline anterior",
+        "etiqueta": "Descartados pipeline anterior"
+      },
+      {
+        "valor": "En espera de vender su propiedad",
+        "etiqueta": "En espera de vender su propiedad"
+      },
+      {
+        "valor": "Tiempo de entrega",
+        "etiqueta": "Tiempo de entrega"
+      },
+      {
+        "valor": "distribucion",
+        "etiqueta": "No le gustó la distribución"
+      },
+      {
+        "valor": "adicionales",
+        "etiqueta": "La casa no tiene adicionales"
+      },
+      {
+        "valor": "curiosidad",
+        "etiqueta": "Solo estaba viendo "
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "motivo_de_por_madurar",
+    "etiqueta": "Motivo de POR MADURAR",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Dejó de contestar",
+        "etiqueta": "Dejó de contestar"
+      },
+      {
+        "valor": "Esta viendo otras opciones",
+        "etiqueta": "Esta viendo otras opciones"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "motivo_de_sin_interes_inmediato",
+    "etiqueta": "Motivo de LARGO PLAZO",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Compra mayor a 3 meses",
+        "etiqueta": "Compra mayor a 3 meses"
+      },
+      {
+        "valor": "Quiere comprar en 1 año",
+        "etiqueta": "Quiere comprar en 1 año"
+      },
+      {
+        "valor": "Interesado sin fecha definida de compra",
+        "etiqueta": "Interesado sin fecha definida de compra"
+      },
+      {
+        "valor": "Foraneo sin fecha de visita definida",
+        "etiqueta": "Foraneo sin fecha de visita definida"
+      },
+      {
+        "valor": "Intención de compra sin decisión inmediata",
+        "etiqueta": "Intención de compra sin decisión inmediata"
+      },
+      {
+        "valor": "Está vendiendo una propiedad",
+        "etiqueta": "Está vendiendo una propiedad"
+      },
+      {
+        "valor": "Quiere ver la casa muestra",
+        "etiqueta": "Quiere ver la casa muestra"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "nivel_estudios",
+    "etiqueta": "Nivel de estudios",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "nombre",
+    "etiqueta": "Nombre",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad espejo para nombre del contacto",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "nombre_referencia_1",
+    "etiqueta": "Nombre referencia 1",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "nombre_referencia_2",
+    "etiqueta": "Nombre referencia 2",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "nombre_vendedor",
+    "etiqueta": "Nombre del vendedor",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "nomina",
+    "etiqueta": "Nómina",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "notes_last_contacted",
+    "etiqueta": "Last Contacted",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The last time a call, sales email, or meeting was logged for this deal. This is set automatically by HubSpot based on user actions.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "notes_last_updated",
+    "etiqueta": "Last Activity Date",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The last time a note, call, email, meeting, or task was logged for a deal. This is set automatically by HubSpot based on user actions in the deal record.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "notes_next_activity_date",
+    "etiqueta": "Next Activity Date",
+    "tipo": "datetime",
+    "tipo_campo": "date",
+    "descripcion": "The date of the next upcoming activity for a deal. This property is set automatically by HubSpot based on user action. This includes logging a future call, sales email, or meeting using the Log feature, as well as creating a future task or scheduling a future meeting. This is updated automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "nss",
+    "etiqueta": "NSS",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "num_associated_contacts",
+    "etiqueta": "Number of Associated Contacts",
+    "tipo": "number",
+    "tipo_campo": "calculation_rollup",
+    "descripcion": "The number of contacts associated with this deal. This property is set automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "num_contacted_notes",
+    "etiqueta": "Number of times contacted",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The number of times a call, email or meeting was logged for this deal",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "num_notes",
+    "etiqueta": "Number of Sales Activities",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "The total number of sales activities (notes, calls, emails, meetings, or tasks) logged for a deal. This is updated automatically by HubSpot.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "oferta_comercial_negociada",
+    "etiqueta": "Oferta comercial negociada",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para la optimización del proceso de ventas.",
+    "grupo": "deal_activity",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "pago_promesa_compraventa",
+    "etiqueta": "Pago promesa compraventa",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para la optimización del proceso comercial.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "percepcion_mensual",
+    "etiqueta": "Percepción mensual",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "perfeccionamiento_acuerdo_de_pago",
+    "etiqueta": "Perfeccionamiento acuerdo de pago",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "peso",
+    "etiqueta": "Peso",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "phone",
+    "etiqueta": "Número de teléfono",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "pipeline",
+    "etiqueta": "Pipeline",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "The pipeline the deal is in. This determines which stages are options for the deal.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "presupuesto_para_invertir",
+    "etiqueta": "Presupuesto para invertir",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Desde 1.5 hasta 2 mdp",
+        "etiqueta": "Desde 1.5 hasta 2 mdp "
+      },
+      {
+        "valor": "Entre 2 y 3 mdp",
+        "etiqueta": "Entre 2 y 3 mdp"
+      },
+      {
+        "valor": "Entre 3 y 4 mdp",
+        "etiqueta": "Entre 3 y 4 mdp "
+      },
+      {
+        "valor": "Más de 4 mdp",
+        "etiqueta": "Más de 4 mdp "
+      },
+      {
+        "valor": "No lo tengo claro",
+        "etiqueta": "No lo tengo claro"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "producto",
+    "etiqueta": "Producto",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "CINCO Park",
+        "etiqueta": "CINCO Park"
+      },
+      {
+        "valor": "Ipana",
+        "etiqueta": "Ipana"
+      },
+      {
+        "valor": "Macora 86",
+        "etiqueta": "Macora 86"
+      },
+      {
+        "valor": "Madero 54",
+        "etiqueta": "Madero 54"
+      },
+      {
+        "valor": "Palta 152",
+        "etiqueta": "Palta 152"
+      },
+      {
+        "valor": "Zensia",
+        "etiqueta": "Zensia"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "profesion",
+    "etiqueta": "Profesión",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "promedio_ingresos_mensuales_familiares",
+    "etiqueta": "Promedio ingresos mensuales familiares",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "a. Hasta 50 mil",
+        "etiqueta": "Hasta 50 mil"
+      },
+      {
+        "valor": "b. Entre 50 mil y 70 mil",
+        "etiqueta": "Entre 50 mil y 70 mil"
+      },
+      {
+        "valor": "c. Entre 70mil y 90 mil",
+        "etiqueta": "Entre 70mil y 90 mil"
+      },
+      {
+        "valor": "d. Entre 90 mil y 110 mil",
+        "etiqueta": "Entre 90 mil y 110 mil"
+      },
+      {
+        "valor": "e. Más de 110 mil",
+        "etiqueta": "Más de 110 mil"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "razones_de_no_calificado",
+    "etiqueta": "Razones de no calificado",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "No le interesó el producto",
+        "etiqueta": "No le interesó el producto"
+      },
+      {
+        "valor": "No tiene presupuesto",
+        "etiqueta": "No tiene presupuesto"
+      },
+      {
+        "valor": "Confusión de Ubicación",
+        "etiqueta": "Confusión de Ubicación"
+      },
+      {
+        "valor": "Nunca contestó",
+        "etiqueta": "Nunca contestó"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "razones_de_por_madurar",
+    "etiqueta": "Razones de por madurar",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Muestra interés pero no tiene necesidad de compra a corto plazo - Contactar en 30 días",
+        "etiqueta": "Muestra interés pero no tiene necesidad de compra a corto plazo - Contactar en 30 días"
+      },
+      {
+        "valor": "Foráneo sin fecha de visita - Contactar en 20 días",
+        "etiqueta": "Foráneo sin fecha de visita - Contactar en 20 días"
+      },
+      {
+        "valor": "No contesta",
+        "etiqueta": "No contesta"
+      },
+      {
+        "valor": "Quiere ver la casa muestra",
+        "etiqueta": "Quiere ver la casa muestra"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "razones_de_seguimiento",
+    "etiqueta": "Razones de seguimiento",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Interés real de venta (quiere información y pide tiempo para agendar cita) - Programar tarea de seguimiento para contactar en 7 días.",
+        "etiqueta": "Interés real de venta (quiere información y pide tiempo para agendar cita) - Programar tarea de seguimiento para contactar en 7 días."
+      },
+      {
+        "valor": "Foráneo con fecha de visita no mayor a 2 meses  - Programar tarea de Seguimiento",
+        "etiqueta": "Foráneo con fecha de visita no mayor a 2 meses  - Programar tarea de Seguimiento"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "referido_a",
+    "etiqueta": "Referido a",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad espejo de contacto para conocer los referidos.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Macora",
+        "etiqueta": "Macora"
+      },
+      {
+        "valor": "Palta",
+        "etiqueta": "Palta"
+      },
+      {
+        "valor": "Zensia",
+        "etiqueta": "Zensia"
+      },
+      {
+        "valor": "Madero",
+        "etiqueta": "Madero"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "referido_de_",
+    "etiqueta": "Referido de:",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Gabriela Zapata",
+        "etiqueta": "Gabriela Zapata"
+      },
+      {
+        "valor": "Katinca Medina",
+        "etiqueta": "Katinca Medina"
+      },
+      {
+        "valor": "Melissa Rivero",
+        "etiqueta": "Melissa Rivero"
+      },
+      {
+        "valor": "Mariem Sleiman",
+        "etiqueta": "Mariem Sleiman"
+      },
+      {
+        "valor": "Christian Leon",
+        "etiqueta": "Christian Leon"
+      },
+      {
+        "valor": "Pamela Rivas",
+        "etiqueta": "Pamela Rivas"
+      },
+      {
+        "valor": "Melissa León",
+        "etiqueta": "Melissa León"
+      },
+      {
+        "valor": "Omar Peniche",
+        "etiqueta": "Omar Peniche"
+      },
+      {
+        "valor": "Virginia Alpuche",
+        "etiqueta": "Virginia Alpuche"
+      },
+      {
+        "valor": "Ana Negrin",
+        "etiqueta": "Ana Negrin"
+      },
+      {
+        "valor": "Arlett Sánchez",
+        "etiqueta": "Arlett Sánchez"
+      },
+      {
+        "valor": "Talina Reyes",
+        "etiqueta": "Talina Reyes"
+      },
+      {
+        "valor": "Itzel Angulo",
+        "etiqueta": "Itzel Angulo"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "referido_por",
+    "etiqueta": "Referido por",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad espejo de contacto para conocer los referidos.",
+    "grupo": "dealinformation",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "regimen_conyugal",
+    "etiqueta": "Régimen conyugal",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "rfc",
+    "etiqueta": "RFC",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "telefono_referencia_1",
+    "etiqueta": "Teléfono referencia 1",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "telefono_referencia_2",
+    "etiqueta": "Teléfono referencia 2",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "tiempo_residencia_actual",
+    "etiqueta": "Tiempo en residencia actual",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "tipo_agendamiento",
+    "etiqueta": "Tipo de agendamiento",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad para el flujo del proceso comercial",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "Virtual",
+        "etiqueta": "Virtual"
+      },
+      {
+        "valor": "Presencial",
+        "etiqueta": "Presencial"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "tipo_de_inmueble_de_interes",
+    "etiqueta": "Tipo de inmueble de interés ",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "a. Loft / Townhouse",
+        "etiqueta": "Loft / Townhouse"
+      },
+      {
+        "valor": "b. Casa",
+        "etiqueta": "Casa"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "tipo_de_venta",
+    "etiqueta": "Tipo de venta",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Interna o externa",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "interna",
+        "etiqueta": "Interna"
+      },
+      {
+        "valor": "externa",
+        "etiqueta": "Externa"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "validacion_con_tesoreria",
+    "etiqueta": "Validación con tesorería",
+    "tipo": "enumeration",
+    "tipo_campo": "booleancheckbox",
+    "descripcion": "Propiedad creada para la optimización del proceso comercial.",
+    "grupo": "dealinformation",
+    "opciones": [
+      {
+        "valor": "true",
+        "etiqueta": "Sí"
+      },
+      {
+        "valor": "false",
+        "etiqueta": "No"
+      }
+    ],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "valor_vivienda",
+    "etiqueta": "Valor de la vivienda",
+    "tipo": "number",
+    "tipo_campo": "number",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [],
+    "es_personalizada": false
+  },
+  {
+    "nombre_interno": "vive_en_casa",
+    "etiqueta": "Vive en casa",
+    "tipo": "enumeration",
+    "tipo_campo": "select",
+    "descripcion": "Propiedad para visualizar los valores que se diligenciaron en el formato de precalificación.",
+    "grupo": "formato_de_precalificación",
+    "opciones": [
+      {
+        "valor": "Propia",
+        "etiqueta": "Propia"
+      },
+      {
+        "valor": "Rentada",
+        "etiqueta": "Rentada"
+      },
+      {
+        "valor": "Familia",
+        "etiqueta": "Familia"
+      },
+      {
+        "valor": "Otros",
+        "etiqueta": "Otros"
+      }
+    ],
+    "es_personalizada": false
+  }
+]

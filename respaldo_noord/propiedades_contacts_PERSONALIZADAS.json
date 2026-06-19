@@ -1,0 +1,92 @@
+[
+  {
+    "nombre_interno": "leadin_ciudad_97c1ddf15b280eba3e00fc7fcd55672f",
+    "etiqueta": "Ciudad",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  },
+  {
+    "nombre_interno": "leadin_deseas_que_un_asesor_te_contacteh0b_abe837d0311d40322b18ef5626e9228f",
+    "etiqueta": "¿Deseas que un asesor te contacte?",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  },
+  {
+    "nombre_interno": "leadin_dropdown_7498c445a737312f3678aa1494e01a38",
+    "etiqueta": "Dropdown",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  },
+  {
+    "nombre_interno": "leadin_en_cunto_tiempo_piensas_adquirir_tu_propiedadvoc15n_07f17d47a6c6d24fa8d97d1acd2ca459",
+    "etiqueta": "¿En cuánto tiempo piensas adquirir tu propiedad?",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  },
+  {
+    "nombre_interno": "leadin_error_el_captcha_esta_vacio_o_es_incorrecto_____enviar_2bcfbabea21fc63cd656e2bed5d49f6c",
+    "etiqueta": "Error, el captcha esta vacio o es incorrecto.     ENVIAR",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  },
+  {
+    "nombre_interno": "leadin_me_interesa_comprar_para_6ce09edba107b80ab13b9776a485e603",
+    "etiqueta": "Me interesa comprar para",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  },
+  {
+    "nombre_interno": "leadin_mensaje_6ebc36e7e20a77e5b4ccd3a35f63c1d2",
+    "etiqueta": "Mensaje",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  },
+  {
+    "nombre_interno": "leadin_sabes_qu_son_townhouses9jb41i_3a36c93028039aa4829c13ab95b1586a",
+    "etiqueta": "¿Sabes qué son Townhouses?",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  },
+  {
+    "nombre_interno": "leadin_telfonodya_d091ea99b6d16d3456d1ac7312417f6c",
+    "etiqueta": "Teléfono",
+    "tipo": "string",
+    "tipo_campo": "text",
+    "descripcion": "",
+    "grupo": "leadin-form-fields",
+    "opciones": [],
+    "es_personalizada": true
+  }
+]

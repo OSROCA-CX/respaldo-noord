@@ -1,0 +1,20 @@
+{
+  "fecha_respaldo": "2026-06-19 23:01:05",
+  "duracion_segundos": 1046,
+  "archivos": {
+    "meetings.json": 4408,
+    "propiedades_companies.json": 263,
+    "calls.json": 81852,
+    "companies.json": 1618,
+    "emails.json": 0,
+    "owners.json": 19,
+    "tasks.json": 127421,
+    "contacts.json": 23621,
+    "propiedades_contacts_PERSONALIZADAS.json": 9,
+    "deals.json": 6868,
+    "pipelines_deals.json": 1,
+    "notes.json": 49777,
+    "propiedades_deals.json": 295,
+    "propiedades_contacts.json": 569
+  }
+}
