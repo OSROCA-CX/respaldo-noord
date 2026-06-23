@@ -3,27 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Histórico NOORD — Consulta de contactos</title>
+<title>Histórico NOORD</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
 <style>
-:root{
-  --bg:#F4F1EA;--surface:#FFFFFF;--surface-2:#F1EFE8;
-  --text:#26211C;--text-2:#6B655D;--text-3:#9A938A;
-  --border:#E3DED4;--border-2:#D3CCBF;
-  --accent:#1D9E75;--accent-bg:#E1F5EE;--accent-text:#0F6E56;
-  --info:#185FA5;--info-bg:#E6F1FB;
-  --amber:#BA7517;--amber-bg:#FAEEDA;
-  --green:#3B6D11;--green-bg:#EAF3DE;
-  --gray-bg:#F1EFE8;--gray-text:#5F5E5A;
-  --radius:12px;--radius-sm:8px;
-}
+:root{--bg:#F4F1EA;--surface:#FFFFFF;--surface-2:#F1EFE8;--text:#26211C;--text-2:#6B655D;--text-3:#9A938A;--border:#E3DED4;--border-2:#D3CCBF;--accent:#1D9E75;--accent-bg:#E1F5EE;--accent-text:#0F6E56;--info:#185FA5;--info-bg:#E6F1FB;--amber:#BA7517;--amber-bg:#FAEEDA;--green:#3B6D11;--green-bg:#EAF3DE;--wa:#1FA855;--wa-bg:#E3F7E8;--gray-bg:#F1EFE8;--gray-text:#5F5E5A;--radius:12px;--radius-sm:8px}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;min-height:100vh}
-.app{max-width:920px;margin:0 auto;padding:1.5rem 1rem}
-
-/* LOGIN */
+.app{max-width:1100px;margin:0 auto;padding:1.5rem 1rem}
 .login-wrap{max-width:380px;margin:8vh auto;padding:1rem}
 .login-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:2rem}
 .login-logo{width:52px;height:52px;background:var(--text);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem}
@@ -34,91 +22,97 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 .login-field label{display:block;font-size:13px;font-weight:500;margin-bottom:6px;color:var(--text-2)}
 .login-field input{width:100%;padding:11px 13px;font-size:14px;font-family:inherit;border:1px solid var(--border-2);border-radius:var(--radius-sm);background:var(--surface)}
 .login-field input:focus{outline:none;border-color:var(--accent)}
-.login-btn{width:100%;padding:12px;font-size:14px;font-weight:500;font-family:inherit;background:var(--accent);color:#fff;border:none;border-radius:var(--radius-sm);cursor:pointer;transition:opacity .15s}
-.login-btn:hover{opacity:.9}
-.login-btn:disabled{opacity:.6;cursor:not-allowed}
+.login-btn{width:100%;padding:12px;font-size:14px;font-weight:500;font-family:inherit;background:var(--accent);color:#fff;border:none;border-radius:var(--radius-sm);cursor:pointer}
+.login-btn:disabled{opacity:.6}
 .login-error{background:#FCEBEB;border:1px solid #F09595;border-radius:var(--radius-sm);padding:10px 12px;color:#A32D2D;font-size:13px;margin-bottom:1rem;display:none}
 .login-error.visible{display:block}
-
-/* HEADER */
-.header{display:flex;align-items:center;gap:14px;margin-bottom:1.5rem;padding-bottom:1.25rem;border-bottom:1px solid var(--border)}
+.header{display:flex;align-items:center;gap:14px;margin-bottom:1.25rem;padding-bottom:1.25rem;border-bottom:1px solid var(--border)}
 .logo{width:44px;height:44px;background:var(--text);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center}
 .logo i{font-size:22px;color:var(--bg)}
-.header-text h1{font-size:18px;font-weight:600;letter-spacing:-0.01em}
+.header-text h1{font-size:18px;font-weight:600}
 .header-text p{font-size:13px;color:var(--text-2)}
 .logout-btn{margin-left:auto;font-size:13px;color:var(--text-2);background:none;border:1px solid var(--border-2);border-radius:var(--radius-sm);padding:7px 12px;cursor:pointer}
-.logout-btn:hover{background:var(--surface-2)}
+.modeswitch{display:flex;gap:8px;margin-bottom:1rem}
+.mode-btn{flex:1;padding:12px;font-size:14px;font-weight:500;font-family:inherit;background:var(--surface);border:1px solid var(--border-2);border-radius:var(--radius-sm);cursor:pointer;color:var(--text-2);display:flex;align-items:center;justify-content:center;gap:8px}
+.mode-btn.active{background:var(--text);color:#fff;border-color:var(--text)}
+.mode-btn i{font-size:18px}
 .search-wrap{position:relative;margin-bottom:1rem}
 .search-wrap>i{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:18px;color:var(--text-3)}
 #searchInput{width:100%;padding:13px 14px 13px 44px;font-size:15px;font-family:inherit;border:1px solid var(--border-2);border-radius:var(--radius);background:var(--surface)}
 #searchInput:focus{outline:none;border-color:var(--accent)}
-.results-info{font-size:12px;color:var(--text-3);margin-bottom:10px;padding:0 2px}
-.contact-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:8px;cursor:pointer;transition:border-color .15s}
-.contact-card:hover{border-color:var(--accent)}
-.contact-header{display:flex;align-items:center;gap:12px}
+.results-info{font-size:12px;color:var(--text-3);margin-bottom:10px}
+.viewswitch{display:flex;gap:6px;margin-bottom:1rem}
+.view-btn{font-size:13px;font-weight:500;padding:7px 14px;background:var(--surface);border:1px solid var(--border-2);border-radius:var(--radius-sm);cursor:pointer;color:var(--text-2);display:flex;align-items:center;gap:6px}
+.view-btn.active{background:var(--accent-bg);color:var(--accent-text);border-color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:8px;cursor:pointer;transition:border-color .15s}
+.card:hover{border-color:var(--accent)}
+.card-h{display:flex;align-items:center;gap:12px}
 .avatar{width:42px;height:42px;border-radius:50%;background:var(--surface-2);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;color:var(--text-2);flex-shrink:0}
-.contact-name{font-size:15px;font-weight:500}
-.contact-meta{font-size:13px;color:var(--text-2);margin-top:2px}
+.card-name{font-size:15px;font-weight:500}
+.card-meta{font-size:13px;color:var(--text-2);margin-top:2px}
 .owner-chip{font-size:11px;color:var(--text-3);margin-top:4px;display:flex;align-items:center;gap:4px}
-.badge{display:inline-block;font-size:10px;font-weight:500;padding:2px 8px;border-radius:6px;margin-left:8px;vertical-align:middle;text-transform:uppercase;letter-spacing:0.03em}
-.badge-sql{background:var(--accent-bg);color:var(--accent-text)}
-.badge-opp{background:var(--info-bg);color:var(--info)}
-.badge-lead{background:var(--gray-bg);color:var(--gray-text)}
-.badge-customer{background:var(--amber-bg);color:var(--amber)}
+.badge{display:inline-block;font-size:10px;font-weight:500;padding:2px 8px;border-radius:6px;margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.badge-sql{background:var(--accent-bg);color:var(--accent-text)}.badge-opp{background:var(--info-bg);color:var(--info)}.badge-lead{background:var(--gray-bg);color:var(--gray-text)}.badge-customer{background:var(--amber-bg);color:var(--amber)}
+.st{display:inline-block;font-size:11px;padding:2px 8px;border-radius:6px;background:var(--surface-2);color:var(--text-2)}
+.pager{display:flex;align-items:center;justify-content:center;gap:14px;margin:1.25rem 0;font-size:13px}
+.pager button{padding:7px 14px;border:1px solid var(--border-2);background:var(--surface);border-radius:var(--radius-sm);cursor:pointer;font-family:inherit;font-size:13px}
+.pager button:disabled{opacity:.4;cursor:not-allowed}
+.board{display:flex;gap:12px;overflow-x:auto;padding-bottom:1rem}
+.col{flex:0 0 260px;background:var(--surface-2);border-radius:var(--radius);padding:10px;max-height:75vh;display:flex;flex-direction:column}
+.col-h{font-size:13px;font-weight:600;padding:4px 6px 10px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+.col-count{font-size:11px;background:var(--surface);padding:2px 8px;border-radius:10px;color:var(--text-2)}
+.col-body{overflow-y:auto;flex:1}
+.deal-mini{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px;margin-bottom:8px;cursor:pointer}
+.deal-mini:hover{border-color:var(--accent)}
+.deal-mini-name{font-size:13px;font-weight:500;margin-bottom:4px}
+.deal-mini-meta{font-size:11px;color:var(--text-2)}
+.col-loading{text-align:center;font-size:12px;color:var(--text-3);padding:10px}
 .detail-panel{background:var(--surface);border:1px solid var(--border-2);border-radius:var(--radius);padding:1.5rem;margin-bottom:1rem;display:none}
 .detail-panel.visible{display:block}
 .detail-top{display:flex;align-items:flex-start;gap:16px;margin-bottom:1.25rem;padding-bottom:1.25rem;border-bottom:1px solid var(--border)}
 .avatar-lg{width:58px;height:58px;border-radius:50%;background:var(--surface-2);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:600;color:var(--text-2);flex-shrink:0}
-.detail-name{font-size:20px;font-weight:600;letter-spacing:-0.01em}
+.detail-name{font-size:20px;font-weight:600}
 .detail-owner{font-size:13px;color:var(--text-2);margin-top:4px;display:flex;align-items:center;gap:5px}
 .detail-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:1.25rem}
 .field-row{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--text-2)}
-.field-row i{font-size:16px;flex-shrink:0;color:var(--text-3)}
+.field-row i{font-size:16px;color:var(--text-3)}
 .field-val{color:var(--text)}
 .tabs{display:flex;gap:6px;margin-bottom:1.25rem;border-bottom:1px solid var(--border);flex-wrap:wrap}
 .tab{font-size:13px;font-weight:500;padding:8px 14px;cursor:pointer;color:var(--text-2);border-bottom:2px solid transparent;margin-bottom:-1px}
 .tab.active{color:var(--text);border-bottom-color:var(--accent)}
-.tab-content{display:none}
-.tab-content.active{display:block}
+.tab-content{display:none}.tab-content.active{display:block}
 .timeline-item{display:flex;gap:12px;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border)}
 .timeline-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
 .tl-icon{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
-.tl-note{background:var(--info-bg)}.tl-note i{color:var(--info)}
-.tl-call{background:var(--accent-bg)}.tl-call i{color:var(--accent-text)}
-.tl-meeting{background:var(--amber-bg)}.tl-meeting i{color:var(--amber)}
-.tl-task{background:var(--green-bg)}.tl-task i{color:var(--green)}
+.tl-note{background:var(--info-bg)}.tl-note i{color:var(--info)}.tl-call{background:var(--accent-bg)}.tl-call i{color:var(--accent-text)}.tl-meeting{background:var(--amber-bg)}.tl-meeting i{color:var(--amber)}.tl-task{background:var(--green-bg)}.tl-task i{color:var(--green)}.tl-wa{background:var(--wa-bg)}.tl-wa i{color:var(--wa)}
 .tl-icon i{font-size:15px}
 .tl-body{flex:1;min-width:0}
-.tl-date{font-size:11px;color:var(--text-3);margin-bottom:4px;text-transform:uppercase;letter-spacing:0.03em}
+.tl-date{font-size:11px;color:var(--text-3);margin-bottom:4px;text-transform:uppercase;letter-spacing:.03em}
 .tl-text{font-size:14px;color:var(--text);line-height:1.55;word-break:break-word}
-.deal-card{background:var(--surface-2);border-radius:var(--radius-sm);padding:12px 14px;margin-bottom:8px}
-.deal-name{font-size:14px;font-weight:500}
-.deal-meta{font-size:12px;color:var(--text-2);margin-top:4px}
+.wa-toggle{cursor:pointer;color:var(--wa);font-size:13px;font-weight:500;margin-top:6px;display:inline-block}
+.wa-thread{margin-top:10px;padding-left:12px;border-left:2px solid var(--wa-bg);display:none}
+.wa-thread.open{display:block}
+.wa-msg{margin-bottom:8px;font-size:13px}
+.wa-msg .dir{font-size:10px;text-transform:uppercase;color:var(--text-3)}
+.wa-in .bubble{background:var(--surface-2)}.wa-out .bubble{background:var(--wa-bg)}
+.wa-msg .bubble{padding:6px 10px;border-radius:8px;display:inline-block;margin-top:2px;max-width:90%}
 .empty{text-align:center;padding:2rem;color:var(--text-3);font-size:13px}
 .loading-msg{text-align:center;padding:2rem;color:var(--text-2);font-size:14px}
 .loading-msg i{font-size:22px;display:block;margin-bottom:8px;animation:spin 1s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
-.close-btn{float:right;cursor:pointer;color:var(--text-3);font-size:24px;line-height:1;padding:0 4px;background:none;border:none}
-.close-btn:hover{color:var(--text)}
-@media(max-width:600px){.detail-fields{grid-template-columns:1fr}.app{padding:1rem 0.75rem}}
+.close-btn{float:right;cursor:pointer;color:var(--text-3);font-size:24px;background:none;border:none}
+@media(max-width:600px){.detail-fields{grid-template-columns:1fr}.app{padding:1rem .75rem}}
 </style>
 </head>
 <body>
-
 <div id="loginView" class="login-wrap">
   <div class="login-card">
     <div class="login-logo"><i class="ti ti-database"></i></div>
     <h1>Histórico NOORD</h1>
-    <p>Consulta de contactos — acceso para asesores</p>
+    <p>Consulta — acceso para asesores</p>
     <div id="loginError" class="login-error"></div>
-    <div class="login-field">
-      <label>Correo</label>
-      <input type="email" id="email" placeholder="tu@noord.mx" autocomplete="email">
-    </div>
-    <div class="login-field">
-      <label>Contraseña</label>
-      <input type="password" id="password" placeholder="••••••••" autocomplete="current-password">
-    </div>
+    <div class="login-field"><label>Correo</label><input type="email" id="email" autocomplete="email"></div>
+    <div class="login-field"><label>Contraseña</label><input type="password" id="password" autocomplete="current-password"></div>
     <button class="login-btn" id="loginBtn" onclick="doLogin()">Entrar</button>
   </div>
 </div>
@@ -126,19 +120,23 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 <div id="appView" class="app" style="display:none">
   <div class="header">
     <div class="logo"><i class="ti ti-database"></i></div>
-    <div class="header-text">
-      <h1>Histórico NOORD</h1>
-      <p>Consulta de contactos — solo lectura</p>
-    </div>
+    <div class="header-text"><h1>Histórico NOORD</h1><p>Consulta — solo lectura</p></div>
     <button class="logout-btn" onclick="doLogout()"><i class="ti ti-logout" style="font-size:14px;vertical-align:-2px"></i> Salir</button>
   </div>
-  <div class="search-wrap">
-    <i class="ti ti-search"></i>
-    <input type="text" id="searchInput" placeholder="Buscar por nombre, teléfono o email..." autocomplete="off">
+  <div class="modeswitch">
+    <button class="mode-btn active" id="mode-contacts" onclick="setMode('contacts')"><i class="ti ti-users"></i> Contactos</button>
+    <button class="mode-btn" id="mode-deals" onclick="setMode('deals')"><i class="ti ti-briefcase"></i> Negocios</button>
+  </div>
+  <div class="search-wrap"><i class="ti ti-search"></i><input type="text" id="searchInput" placeholder="Buscar..." autocomplete="off"></div>
+  <div id="viewSwitch" class="viewswitch" style="display:none">
+    <button class="view-btn active" id="view-board" onclick="setDealView('board')"><i class="ti ti-layout-kanban"></i> Tablero</button>
+    <button class="view-btn" id="view-list" onclick="setDealView('list')"><i class="ti ti-list"></i> Lista</button>
   </div>
   <div id="resultsInfo" class="results-info"></div>
   <div id="detailPanel" class="detail-panel"></div>
   <div id="resultsList"></div>
+  <div id="boardView" style="display:none"></div>
+  <div id="pager" class="pager" style="display:none"></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -146,125 +144,190 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 const SUPABASE_URL='https://shtndxvlocypcmwuuskq.supabase.co';
 const SUPABASE_KEY='sb_publishable_xQdMri0JakqKeKGcM-Hmwg_uRx8Rz7y';
 const sb=supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
-let owners={},searchTimer=null;
+let owners={},searchTimer=null,mode='contacts',dealView='board';
+let page=0;const PER=100;
+const STAGES=[['23073047','Presentación agendada'],['23073048','Cotización enviada'],['23073049','Revisión de crédito'],['23073050','Apartada'],['23073052','Contrato firmado'],['23919393','Escritura firmada'],['23100254','Cierre perdido']];
+const stageMap=Object.fromEntries(STAGES);
 
-const stageMap={'23073047':'Presentación agendada','23073048':'Cotización enviada','23073049':'Revisión de crédito','23073050':'Apartada','23073052':'Contrato firmado','23919393':'Escritura firmada','23100254':'Cierre perdido'};
-
-function fmt(ts){if(!ts)return '';try{const d=new Date(ts);if(isNaN(d.getTime()))return '';return d.toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'})}catch(e){return ''}}
+function fmt(ts){if(!ts)return '';try{const d=new Date(ts);if(isNaN(d))return '';return d.toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'})}catch(e){return ''}}
+function fmtT(ts){if(!ts)return '';try{return new Date(ts).toLocaleString('es-MX',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})}catch(e){return ''}}
 function initials(f,l){return (((f||'')[0]||'')+((l||'')[0]||'')).toUpperCase()}
-function stageBadge(s){const m={salesqualifiedlead:['SQL','badge-sql'],opportunity:['Oportunidad','badge-opp'],customer:['Cliente','badge-customer'],lead:['Lead','badge-lead'],marketingqualifiedlead:['MQL','badge-lead']};const[lb,c]=m[s]||['','badge-lead'];return lb?`<span class="badge ${c}">${lb}</span>`:''}
+function stageBadge(s){const m={salesqualifiedlead:['SQL','badge-sql'],opportunity:['Oport','badge-opp'],customer:['Cliente','badge-customer'],lead:['Lead','badge-lead'],marketingqualifiedlead:['MQL','badge-lead']};const[lb,c]=m[s]||['','badge-lead'];return lb?`<span class="badge ${c}">${lb}</span>`:''}
 function ownerName(id){return owners[id]?`${owners[id].first_name||''} ${owners[id].last_name||''}`.trim():(id?`Asesor ${id}`:'Sin asignar')}
 function clean(t){return (t||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim()}
+function esc(t){return (t||'').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 
 async function doLogin(){
-  const email=document.getElementById('email').value.trim();
-  const password=document.getElementById('password').value;
-  const btn=document.getElementById('loginBtn');
-  const err=document.getElementById('loginError');
-  err.classList.remove('visible');
-  if(!email||!password){err.textContent='Escribe tu correo y contraseña.';err.classList.add('visible');return}
+  const email=document.getElementById('email').value.trim(),password=document.getElementById('password').value;
+  const btn=document.getElementById('loginBtn'),err=document.getElementById('loginError');err.classList.remove('visible');
+  if(!email||!password){err.textContent='Escribe correo y contraseña.';err.classList.add('visible');return}
   btn.disabled=true;btn.textContent='Entrando...';
-  const{data,error}=await sb.auth.signInWithPassword({email,password});
+  const{error}=await sb.auth.signInWithPassword({email,password});
   if(error){err.textContent='Correo o contraseña incorrectos.';err.classList.add('visible');btn.disabled=false;btn.textContent='Entrar';return}
   await startApp();
 }
-
 async function doLogout(){await sb.auth.signOut();location.reload()}
-
 async function startApp(){
   document.getElementById('loginView').style.display='none';
   document.getElementById('appView').style.display='block';
-  const{data}=await sb.from('owners').select('*');
-  if(data)data.forEach(o=>{owners[String(o.id)]=o});
-  document.getElementById('resultsInfo').textContent='Escribe al menos 2 letras para buscar';
+  const{data}=await sb.from('owners').select('*');if(data)data.forEach(o=>{owners[String(o.id)]=o});
+  setMode('contacts');
 }
 
-async function search(q){
-  const info=document.getElementById('resultsInfo');
-  const list=document.getElementById('resultsList');
-  if(!q||q.length<2){list.innerHTML='';info.textContent='Escribe al menos 2 letras para buscar';document.getElementById('detailPanel').classList.remove('visible');return}
-  info.innerHTML='<i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i> Buscando...';
-  const qd=q.replace(/\D/g,'');
-  const words=q.split(/\s+/).filter(w=>w);
-  let query=sb.from('contacts').select('*');
-  if(qd.length>=5){
-    query=query.or(`phone.ilike.%${qd}%,mobilephone.ilike.%${qd}%`);
+function setMode(m){
+  mode=m;page=0;
+  document.getElementById('mode-contacts').classList.toggle('active',m==='contacts');
+  document.getElementById('mode-deals').classList.toggle('active',m==='deals');
+  document.getElementById('detailPanel').classList.remove('visible');
+  document.getElementById('searchInput').value='';
+  document.getElementById('searchInput').placeholder=m==='contacts'?'Buscar contacto por nombre, teléfono o email...':'Buscar negocio por nombre...';
+  document.getElementById('viewSwitch').style.display=m==='deals'?'flex':'none';
+  if(m==='deals'&&dealView==='board'){renderBoard();}
+  else{browse();}
+}
+function setDealView(v){
+  dealView=v;page=0;
+  document.getElementById('view-board').classList.toggle('active',v==='board');
+  document.getElementById('view-list').classList.toggle('active',v==='list');
+  document.getElementById('detailPanel').classList.remove('visible');
+  if(v==='board'){renderBoard();}else{browse();}
+}
+
+// BROWSE: listado paginado de 100
+async function browse(){
+  document.getElementById('boardView').style.display='none';
+  document.getElementById('resultsList').style.display='block';
+  const info=document.getElementById('resultsInfo'),list=document.getElementById('resultsList');
+  info.innerHTML='<i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i> Cargando...';
+  const from=page*PER,to=from+PER-1;
+  if(mode==='contacts'){
+    const{data,count}=await sb.from('contacts').select('*',{count:'exact'}).order('createdate',{ascending:false}).range(from,to);
+    renderContacts(data||[]);
+    info.textContent=`${(count||0).toLocaleString('es-MX')} contactos · página ${page+1}`;
+    renderPager(count||0);
   }else{
-    const first=words[0];
-    query=query.or(`firstname.ilike.%${first}%,lastname.ilike.%${first}%,email.ilike.%${first}%`);
+    const{data,count}=await sb.from('deals').select('*',{count:'exact'}).order('createdate',{ascending:false}).range(from,to);
+    renderDeals(data||[]);
+    info.textContent=`${(count||0).toLocaleString('es-MX')} negocios · página ${page+1}`;
+    renderPager(count||0);
   }
-  const{data,error}=await query.limit(200);
-  if(error){info.textContent='Error al buscar: '+error.message;return}
-  let results=data||[];
-  const wl=q.toLowerCase().split(/\s+/).filter(w=>w);
-  if(wl.length>1 && qd.length<5){
-    results=results.filter(c=>{const full=`${c.firstname||''} ${c.lastname||''} ${c.email||''}`.toLowerCase();return wl.every(w=>full.includes(w))});
-  }
-  results=results.slice(0,50);
-  info.textContent=results.length===0?'Sin resultados':`${results.length} resultado${results.length!==1?'s':''}`;
-  list.innerHTML=results.map(c=>{const ini=initials(c.firstname,c.lastname);const nm=`${c.firstname||''} ${c.lastname||''}`.trim()||'Sin nombre';return `<div class="contact-card" onclick="showDetail('${c.id}')"><div class="contact-header"><div class="avatar">${ini||'?'}</div><div style="flex:1;min-width:0"><div class="contact-name">${nm}${stageBadge(c.lifecyclestage)}</div><div class="contact-meta">${c.email||'Sin email'} · ${c.phone||c.mobilephone||'Sin tel'}</div><div class="owner-chip"><i class="ti ti-user"></i> ${ownerName(c.owner_id)}</div></div><i class="ti ti-chevron-right" style="font-size:18px;color:var(--text-3)"></i></div></div>`}).join('');
 }
 
-async function showDetail(cid){
-  const panel=document.getElementById('detailPanel');
-  panel.innerHTML='<div class="loading-msg"><i class="ti ti-loader-2"></i>Cargando historial...</div>';
-  panel.classList.add('visible');
-  panel.scrollIntoView({behavior:'smooth',block:'start'});
+function renderPager(total){
+  const pages=Math.ceil(total/PER),p=document.getElementById('pager');
+  p.style.display='flex';
+  p.innerHTML=`<button onclick="page=Math.max(0,page-1);browse()" ${page===0?'disabled':''}>← Anterior</button><span>Página ${page+1} de ${pages.toLocaleString('es-MX')}</span><button onclick="page=Math.min(${pages-1},page+1);browse()" ${page>=pages-1?'disabled':''}>Siguiente →</button>`;
+}
 
-  const[cRes,nRes,callRes,mRes,tRes,dRes]=await Promise.all([
+function renderContacts(rows){
+  document.getElementById('resultsList').innerHTML=rows.map(c=>{const ini=initials(c.firstname,c.lastname),nm=`${c.firstname||''} ${c.lastname||''}`.trim()||'Sin nombre';return `<div class="card" onclick="showContact('${c.id}')"><div class="card-h"><div class="avatar">${ini||'?'}</div><div style="flex:1;min-width:0"><div class="card-name">${nm}${stageBadge(c.lifecyclestage)}</div><div class="card-meta">${c.email||'Sin email'} · ${c.phone||c.mobilephone||'Sin tel'}</div><div class="owner-chip"><i class="ti ti-user"></i> ${ownerName(c.owner_id)}</div></div><i class="ti ti-chevron-right" style="font-size:18px;color:var(--text-3)"></i></div></div>`}).join('')||'<div class="empty">Sin resultados</div>';
+}
+function renderDeals(rows){
+  document.getElementById('resultsList').innerHTML=rows.map(d=>`<div class="card" onclick="showDeal('${d.id}')"><div class="card-h"><div class="avatar"><i class="ti ti-briefcase" style="font-size:18px"></i></div><div style="flex:1;min-width:0"><div class="card-name">${d.dealname||'Sin nombre'}</div><div class="card-meta">${d.amount?'$'+Number(d.amount).toLocaleString('es-MX'):'Sin monto'} · <span class="st">${stageMap[d.dealstage]||d.dealstage}</span></div><div class="owner-chip"><i class="ti ti-user"></i> ${ownerName(d.owner_id)}</div></div><i class="ti ti-chevron-right" style="font-size:18px;color:var(--text-3)"></i></div></div>`).join('')||'<div class="empty">Sin resultados</div>';
+}
+
+// TABLERO con scroll infinito de 20 por columna
+const boardState={};
+async function renderBoard(){
+  document.getElementById('resultsList').style.display='none';
+  document.getElementById('pager').style.display='none';
+  const bv=document.getElementById('boardView');bv.style.display='block';
+  document.getElementById('resultsInfo').textContent='Tablero por etapa — desliza cada columna para ver más';
+  bv.innerHTML='<div class="board" id="board"></div>';
+  const board=document.getElementById('board');
+  for(const [sid,sname] of STAGES){
+    boardState[sid]={offset:0,done:false,loading:false};
+    const{count}=await sb.from('deals').select('id',{count:'exact',head:true}).eq('dealstage',sid);
+    const col=document.createElement('div');col.className='col';
+    col.innerHTML=`<div class="col-h">${sname}<span class="col-count">${(count||0).toLocaleString('es-MX')}</span></div><div class="col-body" id="col-${sid}"></div>`;
+    board.appendChild(col);
+    const body=col.querySelector('.col-body');
+    body.addEventListener('scroll',()=>{if(body.scrollTop+body.clientHeight>=body.scrollHeight-40)loadColumn(sid);});
+    await loadColumn(sid);
+  }
+}
+async function loadColumn(sid){
+  const s=boardState[sid];if(s.done||s.loading)return;s.loading=true;
+  const body=document.getElementById('col-'+sid);
+  const{data}=await sb.from('deals').select('*').eq('dealstage',sid).order('createdate',{ascending:false}).range(s.offset,s.offset+19);
+  if(!data||data.length<20)s.done=true;
+  s.offset+=20;s.loading=false;
+  (data||[]).forEach(d=>{const el=document.createElement('div');el.className='deal-mini';el.onclick=()=>showDeal(d.id);el.innerHTML=`<div class="deal-mini-name">${d.dealname||'Sin nombre'}</div><div class="deal-mini-meta">${d.amount?'$'+Number(d.amount).toLocaleString('es-MX'):'Sin monto'}<br>${ownerName(d.owner_id)}<br>${fmt(d.createdate)}</div>`;body.appendChild(el);});
+}
+
+// BÚSQUEDA
+async function search(q){
+  if(mode==='deals'&&dealView==='board'){renderBoard();return}
+  document.getElementById('boardView').style.display='none';
+  document.getElementById('resultsList').style.display='block';
+  document.getElementById('pager').style.display='none';
+  const info=document.getElementById('resultsInfo'),list=document.getElementById('resultsList');
+  if(!q||q.length<2){page=0;browse();return}
+  info.innerHTML='<i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i> Buscando...';
+  if(mode==='contacts'){
+    const qd=q.replace(/\D/g,''),words=q.split(/\s+/).filter(w=>w);
+    let query=sb.from('contacts').select('*');
+    if(qd.length>=5)query=query.or(`phone.ilike.%${qd}%,mobilephone.ilike.%${qd}%`);
+    else query=query.or(`firstname.ilike.%${words[0]}%,lastname.ilike.%${words[0]}%,email.ilike.%${words[0]}%`);
+    let{data}=await query.limit(200);let results=data||[];
+    const wl=q.toLowerCase().split(/\s+/).filter(w=>w);
+    if(wl.length>1&&qd.length<5)results=results.filter(c=>{const f=`${c.firstname||''} ${c.lastname||''} ${c.email||''}`.toLowerCase();return wl.every(w=>f.includes(w))});
+    results=results.slice(0,100);
+    info.textContent=`${results.length} resultado${results.length!==1?'s':''}`;renderContacts(results);
+  }else{
+    const{data}=await sb.from('deals').select('*').ilike('dealname',`%${q}%`).limit(100);
+    info.textContent=`${(data||[]).length} resultado(s)`;renderDeals(data||[]);
+  }
+}
+
+// DETALLE CONTACTO
+async function showContact(cid){
+  const panel=document.getElementById('detailPanel');
+  panel.innerHTML='<div class="loading-msg"><i class="ti ti-loader-2"></i>Cargando...</div>';panel.classList.add('visible');panel.scrollIntoView({behavior:'smooth',block:'start'});
+  const[cRes,nRes,callRes,mRes,tRes,waRes,dRes]=await Promise.all([
     sb.from('contacts').select('*').eq('id',cid).single(),
-    sb.from('notes').select('*').eq('contact_id',cid).order('timestamp',{ascending:false}).limit(100),
-    sb.from('calls').select('*').eq('contact_id',cid).order('timestamp',{ascending:false}).limit(100),
-    sb.from('meetings').select('*').eq('contact_id',cid).order('timestamp',{ascending:false}).limit(100),
-    sb.from('tasks').select('*').eq('contact_id',cid).order('timestamp',{ascending:false}).limit(100),
+    sb.from('notes').select('*').eq('contact_id',cid).order('timestamp',{ascending:false}).limit(200),
+    sb.from('calls').select('*').eq('contact_id',cid).order('timestamp',{ascending:false}).limit(200),
+    sb.from('meetings').select('*').eq('contact_id',cid).order('timestamp',{ascending:false}).limit(200),
+    sb.from('tasks').select('*').eq('contact_id',cid).order('timestamp',{ascending:false}).limit(200),
+    sb.from('whatsapp_mensajes').select('*').eq('contact_id',cid).order('timestamp',{ascending:true}).limit(500),
     sb.from('deals').select('*').eq('contact_id',cid)
   ]);
-
-  const c=cRes.data;if(!c){panel.innerHTML='<div class="empty">No se encontró el contacto</div>';return}
-  const nm=`${c.firstname||''} ${c.lastname||''}`.trim()||'Sin nombre';
-  const ini=initials(c.firstname,c.lastname);
-
-  const tl=[
-    ...(nRes.data||[]).map(n=>({type:'note',ts:n.timestamp,text:n.body,owner:n.owner_id})),
-    ...(callRes.data||[]).map(n=>({type:'call',ts:n.timestamp,text:n.body||'Llamada registrada (sin notas)',owner:n.owner_id})),
-    ...(mRes.data||[]).map(n=>({type:'meeting',ts:n.timestamp,text:n.title||n.body||'Reunión',owner:n.owner_id})),
-    ...(tRes.data||[]).map(n=>({type:'task',ts:n.timestamp,text:(n.subject?n.subject+': ':'')+(n.body||'Tarea'),owner:n.owner_id}))
-  ].sort((a,b)=>new Date(b.ts||0)-new Date(a.ts||0));
-
-  const ic={note:'ti-notes',call:'ti-phone',meeting:'ti-calendar',task:'ti-checkbox'};
-  const cl={note:'tl-note',call:'tl-call',meeting:'tl-meeting',task:'tl-task'};
-  const lb={note:'Nota',call:'Llamada',meeting:'Reunión',task:'Tarea'};
-  const tlH=tl.length===0?'<div class="empty">Sin actividad registrada</div>':tl.slice(0,150).map(it=>{const t=clean(it.text);return `<div class="timeline-item"><div class="tl-icon ${cl[it.type]}"><i class="ti ${ic[it.type]}"></i></div><div class="tl-body"><div class="tl-date">${lb[it.type]} · ${fmt(it.ts)} · ${ownerName(it.owner)}</div><div class="tl-text">${t.substring(0,500)||'(sin contenido)'}${t.length>500?'…':''}</div></div></div>`}).join('');
-
+  const c=cRes.data;if(!c){panel.innerHTML='<div class="empty">No encontrado</div>';return}
+  const nm=`${c.firstname||''} ${c.lastname||''}`.trim()||'Sin nombre',ini=initials(c.firstname,c.lastname),wa=waRes.data||[];
+  const tl=[...(nRes.data||[]).map(n=>({type:'note',ts:n.timestamp,text:n.body,owner:n.owner_id})),...(callRes.data||[]).map(n=>({type:'call',ts:n.timestamp,text:n.body||'Llamada',owner:n.owner_id})),...(mRes.data||[]).map(n=>({type:'meeting',ts:n.timestamp,text:n.title||n.body||'Reunión',owner:n.owner_id})),...(tRes.data||[]).map(n=>({type:'task',ts:n.timestamp,text:(n.subject?n.subject+': ':'')+(n.body||'Tarea'),owner:n.owner_id}))].sort((a,b)=>new Date(b.ts||0)-new Date(a.ts||0));
+  const ic={note:'ti-notes',call:'ti-phone',meeting:'ti-calendar',task:'ti-checkbox'},cl={note:'tl-note',call:'tl-call',meeting:'tl-meeting',task:'tl-task'},lb={note:'Nota',call:'Llamada',meeting:'Reunión',task:'Tarea'};
+  let tlH=tl.slice(0,200).map(it=>{const t=clean(it.text);return `<div class="timeline-item"><div class="tl-icon ${cl[it.type]}"><i class="ti ${ic[it.type]}"></i></div><div class="tl-body"><div class="tl-date">${lb[it.type]} · ${fmt(it.ts)} · ${ownerName(it.owner)}</div><div class="tl-text">${t.substring(0,500)||'(sin contenido)'}${t.length>500?'...':''}</div></div></div>`}).join('');
+  let waBlock='';
+  if(wa.length>0){const msgs=wa.map(m=>{const dir=m.direccion==='OUTGOING'?'wa-out':'wa-in',l=m.direccion==='OUTGOING'?'NOORD':'Cliente',txt=clean(m.texto)||'(sin texto)';return `<div class="wa-msg ${dir}"><span class="dir">${l} · ${fmtT(m.timestamp)}</span><br><span class="bubble">${esc(txt.substring(0,800))}</span></div>`}).join('');waBlock=`<div class="timeline-item"><div class="tl-icon tl-wa"><i class="ti ti-brand-whatsapp"></i></div><div class="tl-body"><div class="tl-date">WhatsApp · ${wa.length} mensajes</div><span class="wa-toggle" onclick="document.getElementById('waThread').classList.toggle('open')">Ver/ocultar conversación</span><div id="waThread" class="wa-thread">${msgs}</div></div></div>`}
   const cD=dRes.data||[];
-  const dH=cD.length===0?'<div class="empty">Sin negocios asociados</div>':cD.map(d=>`<div class="deal-card"><div class="deal-name">${d.dealname||'Negocio sin nombre'}</div><div class="deal-meta">${stageMap[d.dealstage]||'Etapa '+(d.dealstage||'—')}  ·  ${d.amount?'$'+Number(d.amount).toLocaleString('es-MX'):'Sin monto'}  ·  ${ownerName(d.owner_id)}</div></div>`).join('');
+  const dH=cD.length===0?'<div class="empty">Sin negocios</div>':cD.map(d=>`<div class="card" style="margin-bottom:8px" onclick="showDeal('${d.id}')"><div class="card-name">${d.dealname||'Sin nombre'}</div><div class="card-meta"><span class="st">${stageMap[d.dealstage]||d.dealstage}</span> · ${d.amount?'$'+Number(d.amount).toLocaleString('es-MX'):'Sin monto'}</div></div>`).join('');
+  const ct={note:tl.filter(x=>x.type==='note').length,call:tl.filter(x=>x.type==='call').length,meeting:tl.filter(x=>x.type==='meeting').length,task:tl.filter(x=>x.type==='task').length};
+  panel.innerHTML=`<button class="close-btn" onclick="document.getElementById('detailPanel').classList.remove('visible')">×</button><div class="detail-top"><div class="avatar-lg">${ini||'?'}</div><div><div class="detail-name">${nm}${stageBadge(c.lifecyclestage)}</div><div class="detail-owner"><i class="ti ti-user"></i> ${ownerName(c.owner_id)}</div></div></div><div class="detail-fields"><div class="field-row"><i class="ti ti-mail"></i><span class="field-val">${c.email||'-'}</span></div><div class="field-row"><i class="ti ti-phone"></i><span class="field-val">${c.phone||c.mobilephone||'-'}</span></div><div class="field-row"><i class="ti ti-building"></i><span class="field-val">${c.company||'-'}</span></div><div class="field-row"><i class="ti ti-calendar-plus"></i><span class="field-val">${fmt(c.createdate)||'-'}</span></div></div><div class="tabs"><div class="tab active" onclick="switchTab(this,'tab-tl')">Cronograma (${tl.length})</div><div class="tab" onclick="switchTab(this,'tab-wa')">WhatsApp (${wa.length})</div><div class="tab" onclick="switchTab(this,'tab-d')">Negocios (${cD.length})</div></div><div id="tab-tl" class="tab-content active"><div style="font-size:12px;color:var(--text-3);margin-bottom:12px">${ct.note} notas · ${ct.call} llamadas · ${ct.meeting} reuniones · ${ct.task} tareas · ${wa.length} WhatsApp</div>${waBlock}${tlH||(waBlock?'':'<div class="empty">Sin actividad</div>')}</div><div id="tab-wa" class="tab-content">${wa.length===0?'<div class="empty">Sin WhatsApp</div>':wa.map(m=>{const dir=m.direccion==='OUTGOING'?'wa-out':'wa-in',l=m.direccion==='OUTGOING'?'NOORD':'Cliente',txt=clean(m.texto)||'(sin texto)';return `<div class="wa-msg ${dir}"><span class="dir">${l} · ${fmtT(m.timestamp)}</span><br><span class="bubble">${esc(txt.substring(0,800))}</span></div>`}).join('')}</div><div id="tab-d" class="tab-content">${dH}</div>`;
+}
 
-  const counts={note:tl.filter(x=>x.type==='note').length,call:tl.filter(x=>x.type==='call').length,meeting:tl.filter(x=>x.type==='meeting').length,task:tl.filter(x=>x.type==='task').length};
-
-  panel.innerHTML=`<button class="close-btn" onclick="document.getElementById('detailPanel').classList.remove('visible')" aria-label="Cerrar">×</button>
-    <div class="detail-top"><div class="avatar-lg">${ini||'?'}</div><div><div class="detail-name">${nm}${stageBadge(c.lifecyclestage)}</div><div class="detail-owner"><i class="ti ti-user"></i> ${ownerName(c.owner_id)}</div></div></div>
-    <div class="detail-fields">
-      <div class="field-row"><i class="ti ti-mail"></i><span class="field-val">${c.email||'—'}</span></div>
-      <div class="field-row"><i class="ti ti-phone"></i><span class="field-val">${c.phone||c.mobilephone||'—'}</span></div>
-      <div class="field-row"><i class="ti ti-building"></i><span class="field-val">${c.company||'—'}</span></div>
-      <div class="field-row"><i class="ti ti-calendar-plus"></i><span class="field-val">${fmt(c.createdate)||'—'}</span></div>
-    </div>
-    <div class="tabs">
-      <div class="tab active" onclick="switchTab(this,'tab-tl')">Cronograma (${tl.length})</div>
-      <div class="tab" onclick="switchTab(this,'tab-d')">Negocios (${cD.length})</div>
-    </div>
-    <div id="tab-tl" class="tab-content active">
-      <div style="font-size:12px;color:var(--text-3);margin-bottom:12px">${counts.note} notas · ${counts.call} llamadas · ${counts.meeting} reuniones · ${counts.task} tareas</div>
-      ${tlH}
-    </div>
-    <div id="tab-d" class="tab-content">${dH}</div>`;
+// DETALLE NEGOCIO con actividades en tarjetas
+async function showDeal(did){
+  const panel=document.getElementById('detailPanel');
+  panel.innerHTML='<div class="loading-msg"><i class="ti ti-loader-2"></i>Cargando negocio...</div>';panel.classList.add('visible');panel.scrollIntoView({behavior:'smooth',block:'start'});
+  const[dRes,n,c,t,m]=await Promise.all([
+    sb.from('deals').select('*').eq('id',did).single(),
+    sb.from('deal_notes').select('*').eq('deal_id',did).order('timestamp',{ascending:false}).limit(100),
+    sb.from('deal_calls').select('*').eq('deal_id',did).order('timestamp',{ascending:false}).limit(100),
+    sb.from('deal_tasks').select('*').eq('deal_id',did).order('timestamp',{ascending:false}).limit(100),
+    sb.from('deal_meetings').select('*').eq('deal_id',did).order('timestamp',{ascending:false}).limit(100)
+  ]);
+  const d=dRes.data;if(!d){panel.innerHTML='<div class="empty">No encontrado</div>';return}
+  const act=[...(n.data||[]).map(x=>({type:'note',ts:x.timestamp,text:x.body,owner:x.owner_id})),...(c.data||[]).map(x=>({type:'call',ts:x.timestamp,text:x.body||'Llamada',owner:x.owner_id})),...(t.data||[]).map(x=>({type:'task',ts:x.timestamp,text:(x.subject?x.subject+': ':'')+(x.body||'Tarea'),owner:x.owner_id})),...(m.data||[]).map(x=>({type:'meeting',ts:x.timestamp,text:x.title||x.body||'Reunión',owner:x.owner_id}))].sort((a,b)=>new Date(b.ts||0)-new Date(a.ts||0));
+  const ic={note:'ti-notes',call:'ti-phone',meeting:'ti-calendar',task:'ti-checkbox'},cl={note:'tl-note',call:'tl-call',meeting:'tl-meeting',task:'tl-task'},lb={note:'Nota',call:'Llamada',meeting:'Reunión',task:'Tarea'};
+  const actH=act.length===0?'<div class="empty">Sin actividades en este negocio</div>':act.map(it=>{const tx=clean(it.text);return `<div class="timeline-item"><div class="tl-icon ${cl[it.type]}"><i class="ti ${ic[it.type]}"></i></div><div class="tl-body"><div class="tl-date">${lb[it.type]} · ${fmt(it.ts)} · ${ownerName(it.owner)}</div><div class="tl-text">${tx.substring(0,500)||'(sin contenido)'}${tx.length>500?'...':''}</div></div></div>`}).join('');
+  const ct={note:act.filter(x=>x.type==='note').length,call:act.filter(x=>x.type==='call').length,meeting:act.filter(x=>x.type==='meeting').length,task:act.filter(x=>x.type==='task').length};
+  panel.innerHTML=`<button class="close-btn" onclick="document.getElementById('detailPanel').classList.remove('visible')">×</button><div class="detail-top"><div class="avatar-lg"><i class="ti ti-briefcase" style="font-size:24px"></i></div><div><div class="detail-name">${d.dealname||'Sin nombre'}</div><div class="detail-owner"><i class="ti ti-user"></i> ${ownerName(d.owner_id)}</div></div></div><div class="detail-fields"><div class="field-row"><i class="ti ti-stairs"></i><span class="field-val">${stageMap[d.dealstage]||d.dealstage}</span></div><div class="field-row"><i class="ti ti-currency-dollar"></i><span class="field-val">${d.amount?'$'+Number(d.amount).toLocaleString('es-MX'):'Sin monto'}</span></div><div class="field-row"><i class="ti ti-calendar-plus"></i><span class="field-val">${fmt(d.createdate)||'-'}</span></div></div><div style="font-size:12px;color:var(--text-3);margin-bottom:12px">${ct.note} notas · ${ct.call} llamadas · ${ct.meeting} reuniones · ${ct.task} tareas</div>${actH}`;
 }
 
 function switchTab(el,id){const p=el.closest('.detail-panel');p.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));p.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));el.classList.add('active');document.getElementById(id).classList.add('active')}
-
 document.getElementById('searchInput').addEventListener('input',e=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>search(e.target.value.trim()),350)});
 document.getElementById('password').addEventListener('keydown',e=>{if(e.key==='Enter')doLogin()});
-
 (async()=>{const{data}=await sb.auth.getSession();if(data.session)await startApp()})();
 </script>
 </body>
